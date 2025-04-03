@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.easy{
+  height: 50px !important;
+}
+
+.flite{
+  height: 40px !important;
+}
+
+.umbrella{
+    height: 30px !important;
+}
+
+.hotel{
+  height: 40px !important;
+}
+.lines_lines{
+  height: 30px !important;
+  text-align: right !important;
+}
+.men{
+  height: 30px !important;
+}
+.car{
+    height: 30px !important;
+}
+.text_test{
+  text-align: center;
+}
+.header_text{
+  display: flex;
+  justify-content: end;
+}
+.section_1{
+  border-bottom: 1px solid rgb(152, 151, 151) !important;
+}
+
+.air_plane{
+  background-image: url('./assest/images/airplaneimg.webp');
+  height: 600px !important;
+  width: auto !important;
+  background-repeat: no-repeat !important;
+  background-position:left ;
+  background-size: cover;
+  margin-top: 5px !important;
+}
+
+.section_4{
+ border:1px solid #282c34;
+}
+
+.nav_nav{
+  display: flex;
+}
+
+.posi_tion{
+  display: flex;
+  position: relative;
+}
+.posi_tion .swap{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .bhumi{
+  text-align: center;
+}
