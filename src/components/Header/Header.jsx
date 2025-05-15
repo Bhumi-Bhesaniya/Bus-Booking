@@ -1,12 +1,11 @@
 
-
 import easy from '../../assest/images/easy.webp'
-import flite from '../../assest/images/flite.jpg'
-import umbrella from '../../assest/images/umbrella.png'
-import hotel from '../../assest/images/5star.jpg'
-import lines from '../../assest/images/3-lines.jpeg'
-import men from '../../assest/images/men.jpg'
-import car from '../../assest/images/car.jpg'
+import flite from '../../assest/images/plan.png'
+import umbrella from '../../assest/images/umbrella_2.png'
+import hotel from '../../assest/images/hotel.png'
+import lines from '../../assest/images/3lines.png'
+import men from '../../assest/images/men.png'
+import car from '../../assest/images/car.png'
 
 function Header() {
     return (
@@ -15,40 +14,56 @@ function Header() {
                 <div className='container-fluid'>
                     <div className="row">
                         <div className="col-md-12 text_test" >
-                            <p>HOLIDAYS TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAY.</p>
+                            <p className='travel_holiday'>HOLIDAYS TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAY HOLIDAYS TRAVEL UP.</p>
                         </div>
                     </div>
                 </div>
-                <div className='container-xxl'>
-                    <div className='row '>
-                        <div className='col-md-8'>
-                            <img className="easy" src={easy} />
-                            holidays
 
-                            <img className="flite" src={flite} />
-                            Flight
+                <section className='header_section'>
+                    <div className='container'>
+                        <div className='row row_row_23'>
+                            <div className='col-md-8'>
+                                <div className='flight_2'>
+                                    <img className="easy" src={easy} />
+                                    <p className='easy_holidays'>holidays</p>
+                                    <div className='flight_2 header_h'>
+                                        <div className='flight_2'>
+                                            <img className="flite" src={flite} />
+                                            <p className='flight_hotel'>Flight</p>
+                                        </div>
+                                        <div className='flight_2'>
+                                            <img className='umbrella' src={umbrella} />
+                                            <p className='flight_hotel'>Packages</p>
+                                        </div>
+                                        <div className='flight_2'>
+                                            <img className="hotel" src={hotel} />
+                                            <p className='flight_hotel'>Hotels</p>
+                                        </div>
+                                        <div className='flight_2'>
+                                            <img className="car" src={car} />
+                                            <p className='flight_hotel'>Cars</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <img className='umbrella' src={umbrella} />
-                            Packages
-
-                            <img className="hotel" src={hotel} />
-                            Hotels
-
-                            <img className="car" src={car} />
-                            cars
-                        </div>
-
-                        <div className='col-md-4 header_text'>
-                            <img className='lines_lines' src={lines} />
-
-                            <img className='men' src={men} />
-                            <select>
-                                <option>English</option>
-                                <option>Gujarati</option>
-                            </select>
+                            <div className='col-md-4 header_text'>
+                                <div className='flight_2'>
+                                    <div>
+                                        <img className='lines_lines' src={lines} />
+                                    </div>
+                                    <div>
+                                        <img className='men' src={men} />
+                                    </div>
+                                    <select className='guj_english'>
+                                        <option className='en_guj'>EN</option>
+                                        <option>Guj</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
-               </div>
+                </section>
             </header>
 
 

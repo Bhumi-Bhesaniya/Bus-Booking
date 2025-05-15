@@ -1,23 +1,19 @@
 
-
-
-import flite from '../../assest/images/flite.jpg'
-import umbrella from '../../assest/images/umbrella.png'
-import hotel from '../../assest/images/5star.jpg'
-import car from '../../assest/images/car.jpg'
-import Header from '../../components/Header/Header'
+import flite from '../../assest/images/plan.png'
+import umbrella from '../../assest/images/umbrella_2.png'
+import hotel from '../../assest/images/hotel.png'
+import car from '../../assest/images/car.png'
 
 function Home() {
     return (
         <>
-            <Header />
-            
+       
             <section>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-12'>
+                    <div className='row discover_233'>
+                        <div className='col-sm-12'>
                             <div className='air_plane'>
-                                <h1>Discover Millions Of Affordable Flights</h1>
+                                <h1 className='discover_million'>Discover Millions Of Affordable Flights</h1>
                             </div>
                         </div>
                     </div>
@@ -25,33 +21,37 @@ function Home() {
             </section>
 
             <section>
-                <div className='container'>
+                <div className='container-xxl'>
                     <div className='row'>
-                        <div className='col-md-9 section_4'>
+                        <div className='col-md-10  section_4'>
+                            <div className='flight_2 packages_home'>
+                                <img className="flite" src={flite} />
+                                <p className='flight_home'>Flight</p>
 
-                            <img className="flite" src={flite} />
-                            Flight
+                                <img className='umbrella' src={umbrella} />
+                                <p className='flight_home'>Packages</p>
 
-                            <img className='umbrella' src={umbrella} />
-                            Packages
+                                <img className="hotel" src={hotel} />
+                                <p className='flight_home'>Hotels</p>
 
-                            <img className="hotel" src={hotel} />
-                            Hotels
+                                <img className="car" src={car} />
+                                <p className='flight_home'> cars</p>
+                            </div>
 
-                            <img className="car" src={car} />
-                            cars
-
-                            <div>
-                                <label>
-                                    <input type='radio' name='value' value="Roundtrip" /> Roundtrip
+                            <div className='input_round'>
+                                <label className='input_round'>
+                                    <input type='radio' name='value' value="Roundtrip" />
+                                    <p className='one_way'> Roundtrip</p>
                                 </label>
 
-                                <label>
-                                    <input type='radio' name='value' value="One Way" /> One Way
+                                <label className='input_round'>
+                                    <input type='radio' name='value' value="One Way" /> 
+                                    <p className='one_way'>One Way</p>
                                 </label>
 
-                                <label>
-                                    <input type='radio' name='value' value="Multi-city" /> Multi-city
+                                <label className='input_round'>
+                                    <input type='radio' name='value' value="Multi-city" />
+                                    <p className='one_way'> Multi-city</p>
                                 </label>
                             </div>
 
@@ -98,24 +98,35 @@ function Home() {
                                         </div>
                                     </form>
                                 </nav>
+
+                                <svg className="svg_svg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                                </svg>
                             </div>
 
-                            {/* <div className='tish_uttu'>
-                <div>
-                  DAC
-                </div>
-                <div>
-                  <p>Dhaka</p>
-                  <p>gjsdhfikjioejfvo</p>
-                </div> 
-              </div>*/}
+                            <div>
+                                <div>
+                                    <svg className='stroke-width' width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_d_645_899)">
+                                            <path d="M21 21L17.5 17.5M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#E16A26" />
+                                        </g>
+                                    </svg>Search Preferred Airline
+
+                                    <label>
+                                        <input type='checkbox' name='value' value="Roundtrip" /> Return To Or From Another City/Aiport
+                                    </label>
+
+                                    <label>
+                                        <input type='checkbox' name='value' value="Roundtrip" /> Direct Flights
+                                    </label>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </section>
+
 
 
         </>
