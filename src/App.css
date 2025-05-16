@@ -45,6 +45,11 @@ body {
 
 /* Header_css */
 
+.flight_2 {
+  display: flex;
+
+}
+
 .easy {
   height: 50px !important;
   margin-top: 10px;
@@ -140,7 +145,8 @@ body {
   margin-top: 10px !important;
 }
 
-/* Section-1_css */
+
+/* Bannner Section*/
 
 .air_plane {
   background-image: url('./assest/images/Airplan.jpg');
@@ -168,20 +174,39 @@ body {
 }
 
 
-/* section-2_css  & Home.jsx*/
 
-.flight_2 {
+/* Booking details section*/
+
+.flight_5 {
   display: flex;
+  text-align: center;
+}
+
+.flight_52 {
+  display: flex;
+  border-bottom: 3px solid #ff6701;
+}
+
+.flite_sec_2 {
+  height: 50px !important;
+  padding: 0px 0px 0px 15px;
+
 }
 
 .section_4 {
-
-  border: 1px solid white;
+  border: 0px solid white;
   border-radius: 20px !important;
   background-color: white;
-  padding: 20px;
   margin: 0 auto !important;
-  margin-top: -100px !important;
+  margin-top: -120px !important;
+  padding: 0px !important;
+ 
+}
+
+.packages_home {
+  background-color: #FFE9DC;
+  border-radius: 20px 20px 0px 0px !important;
+  padding: 15px 10px 0px 10px;
 }
 
 .flite {
@@ -207,6 +232,7 @@ body {
 
 .nav_nav {
   display: flex;
+  padding: 10px 20px 0px 20px !important;
 }
 
 .posi_tion {
@@ -223,29 +249,120 @@ body {
 
 .stroke-width {
   stroke-width: 2px !important;
+  width: 32px;
+  height: 30px;
 }
 
 .svg_svg {
-  height: 24px;
-  width: 24px;
+  height: 40px;
+  width: 40px;
+  margin: 0px 0px 0px 0px;
+  background-color: #fd6823;
+  border-radius: 50px !important;
+  border: 1px solid rgb(142, 142, 142);
+
+}
+
+.svg_svg_2 {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background-color: #fc6723;
+  border-radius: 10px;
+}
+
+.svg_svg_3 {
+  height: 20px;
+  width: 20px;
+  margin: 10px 0px 0px 30px;
+}
+
+.label_checkbox {
+  margin: 10px 0px 0px 10px;
+  display: flex;
+  font-size: 14px !important;
+  font-weight: 500;
+  color: gray;
+}
+
+input[type="checkbox"] {
+  accent-color: #eb6207;
+  border: 2px solid #eb6207;
+}
+
+.label_checkbox_2 {
+  margin: 10px 0px 0px 5px;
+  font-size: 14px !important;
+  font-weight: 500;
+  color: gray;
+}
+
+.label_checkbox_3 {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  font-size: 14px !important;
+  font-weight: 500;
+  color: gray;
+  border-bottom: 2px solid gainsboro;
+  padding: 10px 0px 10px 10px;
+
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.place_holder {
+  padding: 12px 7px 12px 7px !important;
+}
+
+.next_sec_2 {
+  padding: 0px 0px 20px 0px;
+}
+
+.input_text {
+  margin: 0px 0px 0px 0px;
 }
 
 .one_way {
-  margin: 1px 0px 0px 0px;
+  margin: 5px 0px 0px 5px;
+  font-size: 18px !important;
+  font-weight: 600;
+
+  input[type="radio"] {
+      accent-color: #eb6207;
+          width: 20px;
+          height: 20px;
+          margin-top: 8px;
+    }
 }
 
 .input_round {
   display: flex;
-  margin: 0px 0px 10px 10px;
+  padding: 5px 20px 5px 35px;
+}
+
+.input_round_text {
+  display: flex;
+  margin-right: 20px;
 }
 
 .flight_home {
   margin: 12px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5a5a5a;
 }
 
-.packages_home {
-  background-color: #FFE9DC;
+.flight_home_2 {
+  margin: 12px 0px 0px 0px;
+  color: #ff6701;
+  font-size: 18px;
+  font-weight: 600;
+
 }
+
+
 
 
 
@@ -253,7 +370,7 @@ body {
 
 
 
-.row_12{
+.row_12 {
   row-gap: 30px;
 }
 
@@ -350,7 +467,7 @@ body {
   height: 300px !important;
   width: 250px;
   padding: 25px;
-  background-color:white;
+  background-color: white;
 }
 
 .low_diposit-3 {
