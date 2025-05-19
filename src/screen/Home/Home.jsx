@@ -17,7 +17,7 @@ function Home() {
             <section>
                 <div className='container'>
                     <div className='row discover_233'>
-                        <div className='col-sm-12'>
+                        <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                             <div className='air_plane'>
                                 <h1 className='discover_million'>Discover Millions Of Affordable Flights</h1>
                             </div>
@@ -32,7 +32,7 @@ function Home() {
             <section>
                 <div className='container-xxl'>
                     <div className='row'>
-                        <div className='col-md-10  section_4'>
+                        <div className='col-sm-10 col-md-10 col-lg-10 col-xl-10  section_4'>
                             <div className='flight_5 packages_home'>
                                 <div className='flight_52'>
                                     <img className="flite_sec_2" src={flite} />
@@ -124,14 +124,14 @@ function Home() {
                                         <p className='label_checkbox'>Search Preferred Airline</p>
                                     </div>
 
-                                    <label className='label_checkbox'>
+                                    <label className='label_checkbox_2'>
                                         <input type='checkbox' name='value' value="Roundtrip"  />
-                                        <p className='label_checkbox_2'>Return To Or From Another City/Aiport?</p>
+                                        <p className='label_checkbox_4'>Return To Or From Another City/Aiport?</p>
                                     </label>
 
-                                    <label className='label_checkbox'>
+                                    <label className='label_checkbox_2'>
                                         <input type='checkbox' name='value' value="Roundtrip" />
-                                        <p className='label_checkbox_2'>Direct Flights</p>
+                                        <p className='label_checkbox_4'>Direct Flights</p>
                                     </label>
                                 </div>
                             </div>

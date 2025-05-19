@@ -164,7 +164,7 @@ function Budget() {
                         <div className="col-md-8">
                             <div className="row">
                                 <div className='col-md-6 bird_bird'>
-                                    <div class="card">
+                                    <div class="card border_card">
                                         <img className='sunlight_13' src={bird} />
                                         <div className='text_text-12'>
                                             <img className='percentage_23 save_btn' src={percentage} />
@@ -234,7 +234,7 @@ function Budget() {
                 <div className='container your_next_23'>
                     <div className='row'>
                         <div className='col-md-3 trip_22'>
-                            <div className='owl-carousel'>
+                            <div className=''>
                                 <h1>Our Customers Love US</h1>
                                 <div className='average_view'>
                                     <img className='star_23' src={star} />

@@ -22,32 +22,33 @@ function Header() {
                 <section className='header_section'>
                     <div className='container'>
                         <div className='row row_row_23'>
-                            <div className='col-md-8'>
+                            <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3 '>
                                 <div className='flight_2'>
                                     <img className="easy" src={easy} />
                                     <p className='easy_holidays'>holidays</p>
-                                    <div className='flight_2 header_h'>
-                                        <div className='flight_2'>
-                                            <img className="flite" src={flite} />
-                                            <p className='flight_hotel'>Flight</p>
-                                        </div>
-                                        <div className='flight_2'>
-                                            <img className='umbrella' src={umbrella} />
-                                            <p className='flight_hotel'>Packages</p>
-                                        </div>
-                                        <div className='flight_2'>
-                                            <img className="hotel" src={hotel} />
-                                            <p className='flight_hotel'>Hotels</p>
-                                        </div>
-                                        <div className='flight_2'>
-                                            <img className="car" src={car} />
-                                            <p className='flight_hotel'>Cars</p>
-                                        </div>
+                                </div>
+                            </div>
+                            <div className='col-md-5 col-xl-5'>
+                                <div className='flight_2 header_h'>
+                                    <div className='flight_2'>
+                                        <img className="flite" src={flite} />
+                                        <p className='flight_hotel'>Flight</p>
+                                    </div>
+                                    <div className='flight_2'>
+                                        <img className='umbrella' src={umbrella} />
+                                        <p className='flight_hotel'>Packages</p>
+                                    </div>
+                                    <div className='flight_2'>
+                                        <img className="hotel" src={hotel} />
+                                        <p className='flight_hotel'>Hotels</p>
+                                    </div>
+                                    <div className='flight_2'>
+                                        <img className="car" src={car} />
+                                        <p className='flight_hotel'>Cars</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className='col-md-4 header_text'>
+                            <div className='col-md-4 col-xl-4 header_text'>
                                 <div className='flight_2'>
                                     <div>
                                         <img className='lines_lines' src={lines} />

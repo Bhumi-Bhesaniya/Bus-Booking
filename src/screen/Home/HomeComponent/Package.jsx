@@ -1,3 +1,7 @@
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import flite from '../../../assest/images/plan.png';
 import hotel from '../../../assest/images/hotel.png';
@@ -7,10 +11,29 @@ import horse from '../../../assest/images/horse.png';
 import bag from '../../../assest/images/bag.png';
 import car from '../../../assest/images/car.png';
 import trip from '../../../assest/images/trip.jpg'
-import natural from '../../../assest/images/women_work.png'
-import nature2 from '../../../assest/images/man_work.jpeg'
+import natural from '../../../assest/images/women_work_2.jpg'
+import nature2 from '../../../assest/images/man_work.jpg'
 
-function Package() {
+
+const MyCarousel = () => {
+    const options = {
+        loop: false,
+        nav: true,
+        dots:false,
+        
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            3000: {
+                items: 3
+            }
+        }
+    };
+
     const holidayPackages = [
         {
             image: nature,
@@ -66,53 +89,56 @@ function Package() {
             transport: 'Transit',
             price: '450',
             // viewHolidayLink: '/nature-getaway'
-        }
-        // You can add more holiday packages to this list!
-    ];
+        }]
 
     return (
         <>
             <section>
                 <div className='container your_next_23'>
                     <div className="row">
-                        <h2 className='popular_98'>Popular Package For Your Holidays</h2>
-                        <p className='ppopular_exp_77'>Explore our top vacation packages designed to offer unforgettable experiences and unbeatable value.</p>
+                        <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+                            <h2 className='popular_98'>Popular Package For Your Holidays</h2>
+                            <p className='ppopular_exp_77'>Explore our top vacation packages designed to offer unforgettable experiences and unbeatable value.</p>
+                        </div>
+                    </div>
 
+                    <div className='row'>
+                        <OwlCarousel className='owl-theme' {...options}>
+                            {holidayPackages.map((pack, index) => (
+                                <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4  card_55 item  card_card_89' key={index}>
+                                    <div className="card ">
+                                        <img src={pack.image} className="nature" alt={pack.title} />
+                                        {pack.discount && <button className='button_btn'>{pack.discount}</button>}
 
-                        {holidayPackages.map((pack, index) => (
-                            <div className='col-md-4  card_55' key={index}>
-                                <div className="card">
-                                    <img src={pack.image} className="nature" alt={pack.title} />
-                                    {pack.discount && <button className='button_btn'>{pack.discount}</button>}
-
-                                    <div className="card-body  card_body_2">
-                                        <h4 className="card-title  title_title">{pack.title}</h4>
-                                        <div className='flight_2 title_2_title'>
-                                            <div className='flite_98 '>
-                                                <img src={pack.flightImage} alt="Flight" />
-                                                <p className='hotel_hotel_34'>Flights</p>
-                                            </div>
-                                            <div className='flight_2'>
-                                                <img className="hotel_98" src={pack.hotelImage} alt="Hotel" />
-                                                <p className='hotel_hotel_34'>Hotel</p>
-                                            </div>
-                                            <div className='flight_2'>
-                                                <img className="bag" src={bag} alt="Baggage" />
-                                                <p className='hotel_hotel_34'>{pack.baggage}</p>
-                                            </div>
-                                            <div className='flight_2'>
-                                                <img className="car_98" src={car} alt="Transport" />
-                                                <p className='hotel_hotel_34'>{pack.transport}</p>
+                                        <div className="card-body  card_body_2">
+                                            <h4 className="card-title  title_title">{pack.title}</h4>
+                                            <div className='flight_2 title_2_title'>
+                                                <div className='flite_98 '>
+                                                    <img src={pack.flightImage} alt="Flight" />
+                                                    <p className='hotel_hotel_34'>Flights</p>
+                                                </div>
+                                                <div className='flight_2'>
+                                                    <img className="hotel_98" src={pack.hotelImage} alt="Hotel" />
+                                                    <p className='hotel_hotel_34'>Hotel</p>
+                                                </div>
+                                                <div className='flight_2'>
+                                                    <img className="bag" src={bag} alt="Baggage" />
+                                                    <p className='hotel_hotel_34'>{pack.baggage}</p>
+                                                </div>
+                                                <div className='flight_2'>
+                                                    <img className="car_98" src={car} alt="Transport" />
+                                                    <p className='hotel_hotel_34'>{pack.transport}</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="footer_person">
-                                        <p className='from_per_person'>from <span className='dolor_509'>$509</span>/per person </p>
-                                        <button className='viewholiday_2'>View Holiday</button>
+                                        <div className="footer_person">
+                                            <p className='from_per_person'>from <span className='dolor_509'>$509</span>/per person </p>
+                                            <button className='viewholiday_2'>View Holiday</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
+                            ))}
+                            </OwlCarousel>
                     </div>
                 </div>
             </section>
@@ -156,10 +182,8 @@ function Package() {
                 </div>
             </section>
 
-
-
         </>
     );
-}
+};
 
-export default Package;
+export default MyCarousel;

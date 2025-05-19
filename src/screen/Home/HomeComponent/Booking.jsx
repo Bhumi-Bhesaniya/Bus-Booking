@@ -16,14 +16,14 @@ function Booking() {
             <section>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-12'>
+                        <div className=' col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                             <h1 className='why_book'>Why Book With Us?</h1>
                             <p className='service_our'>Discover why our personalised service, expert planning, and unbeatable service<br></br> value make every trip extraordinary.</p>
                         </div>
                     </div>
 
                     <div className='row row_12'>
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background'>
                                 <div className='low_diposit-2'>
                                     <div>
@@ -35,7 +35,7 @@ function Booking() {
                             </div>
                         </div>
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_2'>
                                 <div className='low_diposit-2'>
                                     <div>
@@ -48,7 +48,7 @@ function Booking() {
                         </div>
 
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_3'>
                                 <div className='low_diposit-2'>
                                     <div>
@@ -61,7 +61,7 @@ function Booking() {
                         </div>
 
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_4'>
                                 <div className='low_diposit-2'>
                                     <div>
@@ -74,7 +74,7 @@ function Booking() {
                         </div>
 
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_5'>
                                 <div className='low_diposit-3'>
                                     <div>
@@ -87,7 +87,7 @@ function Booking() {
                         </div>
 
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_6'>
                                 <div className='low_diposit-3'>
                                     <div>
@@ -100,7 +100,7 @@ function Booking() {
                         </div>
 
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_7'>
                                 <div className='low_diposit-3'>
                                     <div>
@@ -112,7 +112,7 @@ function Booking() {
                             </div>
                         </div>
 
-                        <div className='col-md-3'>
+                        <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
                             <div className='background_8'>
                                 <div className='low_diposit-3'>
                                     <div>
