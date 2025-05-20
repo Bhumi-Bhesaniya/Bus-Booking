@@ -13,14 +13,14 @@ function Footer() {
             <footer className='footer_footer'>
                 <div className="container">
                     <div className="row ">
-                        <div className="col-md-4">
+                        <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                             <div>
                                 <div className='flight_2'>
                                     <img className="easy_90" src={easy} />
                                     <h4 className='holidays_64'>holidays</h4>
                                 </div>
                                 <div>
-                                    <p className='adventure_12'>Affordable adventures, unforgettable memories to explore with ease to the easy.</p>
+                                    <p className='adventure_12'>Affordable adventures, unforgettable <br></br>memories to explore with ease to the easy.</p>
                                     <p className='follow_78'>FOLLOW US ON HERE:</p>
                                 </div>
                                 <div>
@@ -33,7 +33,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-md-2'>
+                        <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2'>
                             <div>
                                 <h4 className='helpful_links'>HELPFUL LINKS</h4>
                                 <p className='help_center_2'>Help Center</p>
@@ -43,7 +43,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-md-2'>
+                        <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2'>
                             <div>
                                 <h4 className='helpful_links'>ABOUT US</h4>
                                 <p className='help_center_2'>Media Center</p>
@@ -53,7 +53,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-md-2'>
+                        <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2'>
                             <div>
                                 <h4 className='helpful_links'>KEEPING SAFE</h4>
                                 <p className='help_center_2'>ATOL Protected</p>
@@ -63,7 +63,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-md-2'>
+                        <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2'>
                             <div>
                                 <h4 className='helpful_links'>FIND US</h4>
                                 <p className='help_center_2'>Contact Us</p>

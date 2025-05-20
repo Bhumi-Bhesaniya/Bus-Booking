@@ -7,10 +7,10 @@ import flite from '../../../assest/images/plan.png';
 import hotel from '../../../assest/images/hotel.png';
 import nature from '../../../assest/images/nature.jpg';
 import plane from '../../../assest/images/plane.jpeg';
-import horse from '../../../assest/images/horse.png';
+import horse from '../../../assest/images/Horse.jpg';
 import bag from '../../../assest/images/bag.png';
 import car from '../../../assest/images/car.png';
-import trip from '../../../assest/images/trip.jpg'
+import trip from '../../../assest/images/Holiday.webp'
 import natural from '../../../assest/images/women_work_2.jpg'
 import nature2 from '../../../assest/images/man_work.jpg'
 
@@ -19,8 +19,8 @@ const MyCarousel = () => {
     const options = {
         loop: false,
         nav: true,
-        dots:false,
-        
+        dots: false,
+
         responsive: {
             0: {
                 items: 1
@@ -106,7 +106,7 @@ const MyCarousel = () => {
                         <OwlCarousel className='owl-theme' {...options}>
                             {holidayPackages.map((pack, index) => (
                                 <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4  card_55 item  card_card_89' key={index}>
-                                    <div className="card ">
+                                    <div className="card" id='card_card'>
                                         <img src={pack.image} className="nature" alt={pack.title} />
                                         {pack.discount && <button className='button_btn'>{pack.discount}</button>}
 
@@ -138,7 +138,7 @@ const MyCarousel = () => {
                                     </div>
                                 </div>
                             ))}
-                            </OwlCarousel>
+                        </OwlCarousel>
                     </div>
                 </div>
             </section>
@@ -148,7 +148,7 @@ const MyCarousel = () => {
             <section>
                 <div id="carouselExampleIndicators" className="container carousel slide ">
                     <div className='row'>
-                        <div className='col-md-12'>
+                        <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -158,14 +158,14 @@ const MyCarousel = () => {
                                 <div className="carousel-item active">
                                     {/* <img src={tigger} className="slider" alt="..." /> */}
                                     <div className='tigger'>
-                                        <div className='col-md-6 lorem_p'>
+                                        <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6 lorem_p'>
                                             <h1 className='paragraph_22'> Akureyri Iceland </h1>
                                             <p className='paragraph_23'>
                                                 Discover Akureyri in North Iceland , located just below the Arctic Circle you'll surrounded by snow-capped mountains , majestic fjords and breathtaking waterfalls.
                                             </p>
                                             <button className='paragraph_24'>Find Out More</button>
                                         </div>
-                                        <div className='col-md-6'>
+                                        <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6'>
                                             <p></p>
                                         </div>
                                     </div>

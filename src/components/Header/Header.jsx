@@ -13,7 +13,7 @@ function Header() {
             <header>
                 <div className='container-fluid'>
                     <div className="row">
-                        <div className="col-md-12 text_test" >
+                        <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 text_test" >
                             <p className='travel_holiday'>HOLIDAYS TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAY HOLIDAYS TRAVEL UP.</p>
                         </div>
                     </div>
