@@ -6,6 +6,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import flite from '../../../assest/images/plan.png';
 import hotel from '../../../assest/images/hotel.png';
 import nature from '../../../assest/images/nature.jpg';
+import butterfly from '../../../assest/images/Butterfly.jpg'
 import plane from '../../../assest/images/plane.jpeg';
 import horse from '../../../assest/images/Horse.jpg';
 import bag from '../../../assest/images/bag.png';
@@ -25,14 +26,19 @@ const MyCarousel = () => {
             0: {
                 items: 1
             },
-            600: {
-                items: 3
+            700: {
+                items: 2
+            },
+            990: {
+                items:3
             },
             3000: {
                 items: 3
             }
         }
     };
+
+    
 
     const holidayPackages = [
         {
@@ -80,7 +86,7 @@ const MyCarousel = () => {
             // viewHolidayLink: '/nature-getaway'
         },
         {
-            image: nature,
+            image: butterfly,
             discount: 'Save 20%',
             title: 'Last Minute Holiday',
             flightImage: flite,
@@ -105,7 +111,7 @@ const MyCarousel = () => {
                     <div className='row'>
                         <OwlCarousel className='owl-theme' {...options}>
                             {holidayPackages.map((pack, index) => (
-                                <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4  card_55 item  card_card_89' key={index}>
+                                <div className='col-xl-4 col-lg-4 col-md-6  col-sm-12   card_55 item  card_card_89' key={index}>
                                     <div className="card" id='card_card'>
                                         <img src={pack.image} className="nature" alt={pack.title} />
                                         {pack.discount && <button className='button_btn'>{pack.discount}</button>}

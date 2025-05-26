@@ -160,7 +160,7 @@ import women from '../../../assest/images/women_1.jpg';
                                     </div>
                                 </div>
                                 <div className='col-md-6'>
-                                    <div className="card">
+                                    <div className="card border_card">
                                         <img className='sunlight_13' src={moon} />
                                         <div className='text_text-12'>
                                             <img className='percentage_23 save_btn' src={percentage} />

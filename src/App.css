@@ -211,18 +211,18 @@ body {
   padding: 15px 10px 0px 10px;
 }
 
-.umbrella {
+.umbrella_2 {
   height: 50px !important;
   padding: 0px 0px 0px 15px;
 
 }
 
-.hotel {
+.hotel_2 {
   height: 50px !important;
   padding: 0px 0px 0px 15px;
 }
 
-.car {
+.car_2 {
   height: 50px !important;
   padding: 0px 0px 0px 15px;
 }
@@ -309,10 +309,13 @@ input[type="checkbox"] {
 
 }
 
-
-
 .place_holder {
   padding: 12px 7px 12px 7px !important;
+  font-size: 16px !important;
+}
+
+.number_placeholder {
+  font-size: 16px !important;
 }
 
 .next_sec_2 {
@@ -364,7 +367,6 @@ input[type="checkbox"] {
 
 
 /* Booking-Card_css */
-
 
 
 .row_12 {
@@ -517,8 +519,9 @@ input[type="checkbox"] {
   padding: 3px;
 }
 
-#card_card{
-    border-radius: 30px !important;
+#card_card {
+  border-radius: 30px !important;
+ 
 }
 
 
@@ -532,6 +535,7 @@ input[type="checkbox"] {
 
 .card_card_89 {
   width: 420px !important;
+  
 }
 
 .hotel_hotel_34 {
@@ -710,6 +714,7 @@ input[type="checkbox"] {
   position: relative;
 
 }
+
 .lorem_p::before {
   content: "";
   height: 120px;
@@ -786,7 +791,7 @@ input[type="checkbox"] {
 
 .text_14 {
   padding: 0px 15px 15px 15px !important;
-  font-size: 25px !important;
+  font-size: 23px !important;
   font-weight: 600;
 }
 
@@ -1034,14 +1039,14 @@ input[type="checkbox"] {
 
 /* our-Customer_css */
 
-.our_customer{
+.our_customer {
   font-size: 40px !important;
 }
 
 
 .star_23 {
   height: 25px !important;
-  width: 30px !important;
+  width: 25px !important;
 }
 
 .average_view {
@@ -1116,7 +1121,8 @@ input[type="checkbox"] {
   color: rgb(115, 112, 112);
   margin: 3px 0px 0px 7px;
 }
-.amazing_service{
+
+.amazing_service {
   font-size: 19px !important;
   font-weight: 600 !important;
 }
@@ -1130,7 +1136,7 @@ input[type="checkbox"] {
   font-size: 2em !important;
   background-color: white !important;
   border-radius: 50% !important;
-  width: 50px!important;
+  width: 50px !important;
   margin: 0;
   cursor: pointer;
   color: rgb(78, 77, 77) !important;
@@ -1305,4 +1311,3 @@ input[type="checkbox"] {
   font-weight: 500;
   margin-top: 20px;
 }
-

@@ -40,17 +40,17 @@ function Home() {
                                 </div>
 
                                 <div className='flight_5'>
-                                    <img className='umbrella' src={umbrella} />
+                                    <img className='umbrella_2' src={umbrella} />
                                     <p className='flight_home'>Packages</p>
                                 </div>
 
                                 <div className='flight_5'>
-                                    <img className="hotel" src={hotel} />
+                                    <img className="hotel_2" src={hotel} />
                                     <p className='flight_home'>Hotels</p>
                                 </div>
 
                                 <div className='flight_5'>
-                                    <img className="car" src={car} />
+                                    <img className="car_2" src={car} />
                                     <p className='flight_home'> Cars</p>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ function Home() {
                                     <nav className='input_text'>
                                         <form className="container-fluid input_text">
                                             <div className="input-group">
-                                                <span className="input-group-text" id="basic-addon1" >DAC</span>
+                                                <span className="input-group-text number_placeholder" id="basic-addon1" >DAC</span>
                                                 <input type="text" className="form-control place_holder" placeholder="Dhaka" />
                                             </div>
                                         </form>
@@ -87,7 +87,7 @@ function Home() {
                                     <nav>
                                         <form className="container-fluid">
                                             <div className="input-group">
-                                                <span className="input-group-text" id="basic-addon1" >CXB</span>
+                                                <span className="input-group-text number_placeholder" id="basic-addon1" >CXB</span>
                                                 <input type="text" className="form-control  place_holder" placeholder="Cox,S Bazar" aria-describedby="basic-addon1" />
                                             </div>
                                         </form>
@@ -101,7 +101,7 @@ function Home() {
                                 <nav>
                                     <form className="container-fluid">
                                         <div className="input-group">
-                                            <span className="input-group-text" id="basic-addon1" >09</span>
+                                            <span className="input-group-text  number_placeholder" id="basic-addon1" >09</span>
                                             <input type="text" className="form-control place_holder" placeholder="September" aria-describedby="basic-addon1" />
                                         </div>
                                     </form>
@@ -109,7 +109,7 @@ function Home() {
                                 <nav>
                                     <form className="container-fluid">
                                         <div className="input-group">
-                                            <span className="input-group-text" id="basic-addon1" >11</span>
+                                            <span className="input-group-text number_placeholder" id="basic-addon1" >11</span>
                                             <input type="text" color='black' className="form-control place_holder" placeholder="September" aria-describedby="basic-addon1" />
                                         </div>
                                     </form>
