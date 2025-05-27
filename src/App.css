@@ -516,7 +516,6 @@ input[type="checkbox"] {
 
 .card_55 {
   margin: 0px auto;
-  padding: 3px;
 }
 
 #card_card {
@@ -526,11 +525,10 @@ input[type="checkbox"] {
 
 
 .nature {
-  padding: 15px !important;
   height: 300px !important;
   width: auto;
   position: relative;
-  border-radius: 35px !important;
+  border-radius: 15px !important;
 }
 
 .card_card_89 {
@@ -539,22 +537,16 @@ input[type="checkbox"] {
 }
 
 .hotel_hotel_34 {
-  padding: 0px 8px 0px 0px;
-  margin: 15px 0px 0px -6px;
   font-size: 16px;
   font-weight: 500;
   color: rgb(110, 108, 108);
 }
 
 .flite_98 {
-  height: 50px !important;
-  display: flex;
-  margin-left: -16px;
+width: 30px !important;
 }
 
-.car_98 {
-  height: 50px !important;
-}
+
 
 .card {
   border-radius: 10px !important;
@@ -565,18 +557,16 @@ input[type="checkbox"] {
   border-top: 1px solid rgb(234, 234, 234);
 }
 
-.hotel_98 {
-  height: 50px !important;
-  width: 50px;
-  padding-right: 10px;
-
+.flite_99{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button_btn {
   position: absolute;
   top: 25px !important;
   left: 71% !important;
-  padding: 5px 10px 5px 10px !important;
   border-radius: 4px !important;
   background-color: #CD2B40;
   color: white;
@@ -589,35 +579,26 @@ input[type="checkbox"] {
   background-color: white;
 }
 
-.file {
-  margin: 20px !important;
-}
-
-.bag {
-  height: 50px !important;
-}
 
 .viewholiday_2 {
   background-color: #FC6722;
   border: 1px solid #FC6722;
   color: white;
-  padding: 8px 35px 8px 35px;
+  padding: 8px 15px 8px 15px;
   border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
-  margin: 0px 0px 25px 40px;
 }
 
 .title_title {
   font-size: 24px;
   font-weight: 600;
-  margin: -15px 0px 10px 0px !important;
+  margin: 10px 0px 0px 0px;
 }
 
 .from_per_person {
   font-size: 14px !important;
   font-weight: 600;
-  margin: 5px 5px 5px 15px;
   color: gray;
 }
 
@@ -632,8 +613,15 @@ input[type="checkbox"] {
 
 .footer_person {
   display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 10px 0px;
 }
 
+.card_body_2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .carousel-control-prev:active {
   color: black;

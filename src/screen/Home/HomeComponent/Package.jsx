@@ -29,6 +29,9 @@ const MyCarousel = () => {
             700: {
                 items: 2
             },
+            768: {
+                items:3
+            },
             990: {
                 items:3
             },
@@ -111,36 +114,36 @@ const MyCarousel = () => {
                     <div className='row'>
                         <OwlCarousel className='owl-theme' {...options}>
                             {holidayPackages.map((pack, index) => (
-                                <div className='col-xl-4 col-lg-4 col-md-6  col-sm-12   card_55 item  card_card_89' key={index}>
+                                <div className='col-xl-4 col-lg-4 col-md-4  col-sm-4   card_55 item  card_card_89' key={index}>
                                     <div className="card" id='card_card'>
-                                        <img src={pack.image} className="nature" alt={pack.title} />
-                                        {pack.discount && <button className='button_btn'>{pack.discount}</button>}
-
                                         <div className="card-body  card_body_2">
+                                            <img src={pack.image} className="nature" alt={pack.title} />
+                                            {pack.discount && <button className='button_btn'>{pack.discount}</button>}
                                             <h4 className="card-title  title_title">{pack.title}</h4>
-                                            <div className='flight_2 title_2_title'>
-                                                <div className='flite_98 '>
-                                                    <img src={pack.flightImage} alt="Flight" />
-                                                    <p className='hotel_hotel_34'>Flights</p>
+                                            <div className=' title_2_title  flite_99'>
+                                                <div className='flite_99 '>
+                                                    <img className='flite_98 ' src={pack.flightImage} alt="Flight" />
+                                                    <span className='hotel_hotel_34'>Flights</span>
                                                 </div>
-                                                <div className='flight_2'>
-                                                    <img className="hotel_98" src={pack.hotelImage} alt="Hotel" />
-                                                    <p className='hotel_hotel_34'>Hotel</p>
+                                                <div className='flite_99'>
+                                                    <img className="flite_98" src={pack.hotelImage} alt="Hotel" />
+                                                    <span className='hotel_hotel_34'>Hotel</span>
                                                 </div>
-                                                <div className='flight_2'>
-                                                    <img className="bag" src={bag} alt="Baggage" />
-                                                    <p className='hotel_hotel_34'>{pack.baggage}</p>
+                                                <div className='flite_99'>
+                                                    <img className="flite_98" src={bag} alt="Baggage" />
+                                                    <span className='hotel_hotel_34'>{pack.baggage}</span>
                                                 </div>
-                                                <div className='flight_2'>
-                                                    <img className="car_98" src={car} alt="Transport" />
-                                                    <p className='hotel_hotel_34'>{pack.transport}</p>
+                                                <div className='flite_99'>
+                                                    <img className="flite_98" src={car} alt="Transport" />
+                                                    <span className='hotel_hotel_34'>{pack.transport}</span>
                                                 </div>
                                             </div>
+                                            <div className="footer_person">
+                                                <p className='from_per_person'>from <span className='dolor_509'>$509</span>/per person </p>
+                                                <button className='viewholiday_2'>View Holiday</button>
+                                            </div>
                                         </div>
-                                        <div className="footer_person">
-                                            <p className='from_per_person'>from <span className='dolor_509'>$509</span>/per person </p>
-                                            <button className='viewholiday_2'>View Holiday</button>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             ))}

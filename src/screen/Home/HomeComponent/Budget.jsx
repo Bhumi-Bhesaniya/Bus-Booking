@@ -85,13 +85,13 @@ import women from '../../../assest/images/women_1.jpg';
             <section>
                 <div className='container'>
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <h1 className='budget_text_45'>Budget Friendly Packages</h1>
                             <p className='enjoy_text_89'>Enjoy incredible experiences with our budget-friendly packages <br></br>tailored for every traveler.</p>
                         </div>
                     </div>
                     <div className="row">
-                        <div className='col-md-4 div_div'>
+                        <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 div_div'>
                             <div className='sunlight_border'>
                                 <div class="card card_sunlight">
                                     <img className='sunlight_12' src={sunlight} />
@@ -136,9 +136,9 @@ import women from '../../../assest/images/women_1.jpg';
                             </div>
                         </div>
 
-                        <div className="col-md-8">
+                        <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
                             <div className="row">
-                                <div className='col-md-6 bird_bird'>
+                                <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6 bird_bird'>
                                     <div class="card border_card">
                                         <img className='sunlight_13' src={bird} />
                                         <div className='text_text-12'>
@@ -159,18 +159,19 @@ import women from '../../../assest/images/women_1.jpg';
                                         <button className='btn_view'>View Package Detail</button>
                                     </div>
                                 </div>
-                                <div className='col-md-6'>
-                                    <div className="card border_card">
+
+                                <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6 bird_bird'>
+                                    <div class="card border_card">
                                         <img className='sunlight_13' src={moon} />
                                         <div className='text_text-12'>
                                             <img className='percentage_23 save_btn' src={percentage} />
                                             <p className='save_btn_2'>Save $100 use code : TAKLAMURAD</p>
                                         </div>
                                         <div className='text_15'>
-                                            <h4 className='text_14'>Desert Rose Resort</h4>
+                                            <h4 className='text_44'>Desert Rose Resort</h4>
                                             <div className='text_15'>
-                                                <img className='star_58' src={star} />
-                                                <p className='star_57'>4.9</p>
+                                                <img className='star_52' src={star} />
+                                                <p className='star_51'>4.9</p>
                                             </div>
                                         </div>
                                         <div className='text_night_2'>
@@ -180,7 +181,8 @@ import women from '../../../assest/images/women_1.jpg';
                                         <button className='btn_view'>View Package Detail</button>
                                     </div>
                                 </div>
-                                <div className='col-md-12'>
+                               
+                                <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                                     <div className='budget_23'>
                                         <div>
                                             <button className='explore_btn'>EXPLORE MORE PACKAGE</button>

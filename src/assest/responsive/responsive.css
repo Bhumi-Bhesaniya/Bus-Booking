@@ -1,110 +1,4 @@
-@media screen and (max-width:1400px) {
-
-    .flight_2 {
-        display: flex;
-
-    }
-
-    .easy {
-        height: 50px !important;
-        margin-top: 10px;
-    }
-
-    .row_row_23 {
-        padding-bottom: 10px;
-    }
-
-
-    .flite {
-        height: 50px !important;
-        padding: 0px 0px 0px 15px;
-    }
-
-    .umbrella {
-        height: 50px !important;
-        padding: 0px 0px 0px 15px;
-
-    }
-
-    .hotel {
-        height: 50px !important;
-        padding: 0px 0px 0px 15px;
-    }
-
-    .lines_lines {
-        height: 40px !important;
-        margin: 20px 10px 0px 0px !important;
-    }
-
-    .header_section {
-        border-bottom: 2px solid rgb(179, 175, 175);
-    }
-
-    .men {
-        height: 30px !important;
-        margin: 25px 15px 0px 0px !important;
-    }
-
-    .car {
-        height: 50px !important;
-        padding: 0px 0px 0px 15px;
-    }
-
-    .guj_english {
-        margin-top: 25px;
-        /* margin: 25px 0px 0px 30px; */
-        border-radius: 25px !important;
-        padding: 0px;
-        height: 30px;
-        width: 70px;
-        padding: 5px 5px 5px 5px !;
-        border: 2px solid white;
-        font-size: 16px;
-    }
-
-    .flight_hotel {
-        margin-top: 12px;
-        font-size: 18px;
-        font-weight: 600;
-        color: rgb(87, 87, 87);
-    }
-
-    .text_test {
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        background-color: #CD2B40;
-        color: white;
-    }
-
-    .easy_holidays {
-        margin: 20px 10px 0px 5px;
-        color: rgba(255, 106, 0, 0.965);
-        font-size: 22px;
-        font-weight: 400;
-    }
-
-    .header_text {
-        display: flex;
-        justify-content: end;
-        /* margin-left: 30px !important; */
-    }
-
-    .header_h {
-        background-color: white;
-        border-radius: 50px;
-        margin: 10px 0px 0px -80px;
-        width: 510px;
-    }
-
-    .travel_holiday {
-        margin-top: 10px !important;
-        font-size: 14px;
-    }
-
-}
-
-@media screen and (max-width: 1201px) {
+@media (min-width:992px) and (max-width:1199px) {
     /* Header_css */
 
     .flight_2 {
@@ -113,7 +7,7 @@
     }
 
     .easy {
-        height: 50px !important;
+        height: 30px !important;
         margin-top: 10px;
     }
 
@@ -123,24 +17,24 @@
 
 
     .flite {
-        height: 50px !important;
+        height: 40px !important;
         padding: 0px 0px 0px 15px;
     }
 
-    .umbrella_2 {
-        height: 50px !important;
+    .umbrella {
+        height: 40px !important;
         padding: 0px 0px 0px 15px;
 
     }
 
-    .hotel_2 {
-        height: 50px !important;
+    .hotel {
+        height: 40px !important;
         padding: 0px 0px 0px 15px;
     }
 
     .lines_lines {
-        height: 40px !important;
-        margin: 20px 10px 0px 0px !important;
+        height: 30px !important;
+        margin: 15px 10px 0px 0px !important;
     }
 
     .header_section {
@@ -148,30 +42,30 @@
     }
 
     .men {
-        height: 30px !important;
-        margin: 25px 15px 0px 0px !important;
+        height: 20px !important;
+        margin: 20px 15px 0px 0px !important;
     }
 
-    .car_2 {
-        height: 50px !important;
+    .car {
+        height: 40px !important;
         padding: 0px 0px 0px 15px;
     }
 
     .guj_english {
-        margin-top: 25px;
+        margin-top: 18px;
         /* margin: 25px 0px 0px 30px; */
         border-radius: 25px !important;
         padding: 0px;
-        height: 30px;
-        width: 70px;
+        height: 25px;
+        width: 50px;
         padding: 5px 5px 5px 5px !;
         border: 2px solid white;
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .flight_hotel {
         margin-top: 12px;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
         color: rgb(87, 87, 87);
     }
@@ -184,9 +78,9 @@
     }
 
     .easy_holidays {
-        margin: 20px 10px 0px 5px;
+        margin: 12px 10px 0px 5px;
         color: rgba(255, 106, 0, 0.965);
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
     }
 
@@ -199,8 +93,9 @@
     .header_h {
         background-color: white;
         border-radius: 50px;
-        margin-top: 10px;
+        margin: 10px 0px 0px -80px !important;
         padding: 0px 20px 0px 0px;
+        width: 420px !important;
     }
 
     .travel_holiday {
@@ -212,7 +107,7 @@
 
     .air_plane {
         background-image: url('../images/Airplan.jpg');
-        height: 500px !important;
+        height: 450px !important;
         width: auto !important;
         background-repeat: no-repeat !important;
         background-position: center;
@@ -224,7 +119,7 @@
 
     .discover_million {
         text-align: center;
-        font-size: 80px !important;
+        font-size: 70px !important;
         font-weight: 700;
         /* color: rgb(191, 131, 131); */
         color: white;
@@ -262,6 +157,7 @@
         margin: 0 auto !important;
         margin-top: -120px !important;
         padding: 0px !important;
+        width: 800px !important;
 
     }
 
@@ -271,18 +167,18 @@
         padding: 15px 10px 0px 10px;
     }
 
-    .umbrella {
+    .umbrella_2 {
         height: 50px !important;
         padding: 0px 0px 0px 15px;
 
     }
 
-    .hotel {
+    .hotel_2 {
         height: 50px !important;
         padding: 0px 0px 0px 15px;
     }
 
-    .car {
+    .car_2 {
         height: 50px !important;
         padding: 0px 0px 0px 15px;
     }
@@ -311,8 +207,8 @@
     }
 
     .svg_svg {
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
         margin: 0px 0px 0px -10px;
         background-color: #fd6823;
         border-radius: 50px !important;
@@ -320,16 +216,16 @@
     }
 
     .svg_svg_2 {
-        height: 50px;
-        width: 50px;
+        height: 35px;
+        width: 35px;
         padding: 10px;
         background-color: #fc6723;
         border-radius: 10px;
     }
 
     .svg_svg_3 {
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
         margin: 10px 0px 0px 10px;
     }
 
@@ -387,14 +283,14 @@
 
     .one_way {
         margin: 5px 0px 0px 10px;
-        font-size: 18px !important;
+        font-size: 16px !important;
         font-weight: 600;
 
         input[type="radio"] {
             accent-color: #eb6207;
-            width: 20px;
-            height: 20px;
-            margin-top: 8px;
+            width: 15px;
+            height: 15px;
+            margin-top: 10px;
         }
     }
 
@@ -410,7 +306,7 @@
 
     .flight_home {
         margin: 12px 0px 0px 0px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         color: #5a5a5a;
     }
@@ -418,11 +314,22 @@
     .flight_home_2 {
         margin: 12px 0px 0px 0px;
         color: #ff6701;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
-
     }
 
+
+    .place_holder {
+        padding: 5px 7px 5px 7px !important;
+        font-size: 14px !important;
+        color: black !important;
+    }
+
+
+    .number_placeholder {
+        font-size: 14px !important;
+        margin: 0px 0px 0px 0px !important;
+    }
 
     /* Booking-Card_css */
 
@@ -448,119 +355,120 @@
     }
 
     .background {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px !important;
         background: linear-gradient(#EBF9FF,
                 #d6d6f8);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_2 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#FDF3E9,
                 #F1E7DF);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_3 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#FAEAF5,
                 #EEDCEF);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_4 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#F2FEEA,
                 #E0E5CF);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_5 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#FCFAEF,
                 #dfe7ed);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_6 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#ECECFE,
                 #d8e3e1);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_7 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#F7FFEA,
                 #e2f0eb);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .background_8 {
-        padding: 25px 25px 25px 25px;
+        padding: 20px 20px 20px 20px;
         background: linear-gradient(#FAEAF4,
                 #ECEBD9);
         margin: 0 auto !important;
-        border-radius: 20px;
-        width: 270px;
+        border-radius: 10px;
+        width: 210px;
     }
 
     .low_diposit-2 {
         border: 1px solid white;
-        border-radius: 20px;
-        height: 270px !important;
-        width: 220px;
-        padding: 25px;
+        border-radius: 10px;
+        height: 220px !important;
+        width: 170px;
+        padding: 20px;
         background-color: white;
     }
 
     .low_diposit-3 {
         border: 1px solid white;
-        border-radius: 20px;
-        height: 270px !important;
-        width: 220px;
-        padding: 25px;
+        border-radius: 10px;
+        height: 220px !important;
+        width: 170px;
+        padding: 20px;
         background-color: white;
 
     }
 
     .booking_img {
-        height: 80px;
-        padding: 30px 0px 0px 70px;
+        height: 50px;
+        padding: 20px 0px 0px 50px;
         background-color: white;
     }
 
     .easy_1 {
         text-align: center;
-        font-size: 25px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         padding: 30px 0px 10px 0px;
     }
 
     .easy_2 {
         text-align: center;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 500;
         color: #767479;
         padding: 0px 5px 0px 5px;
     }
 
-    /* Popular-Package_css */
 
+
+    /* Popular-Package_css */
 
     .popular_98 {
         text-align: center;
@@ -574,38 +482,36 @@
 
     .card_55 {
         margin: 0px auto;
-        padding: 3px;
+    }
+
+    #card_card {
+        border-radius: 10px !important;
+
     }
 
     .nature {
-        padding: 15px !important;
-        height: 240px !important;
+        height: 220px !important;
         width: auto;
         position: relative;
-        border-radius: 35px !important;
+        border-radius: 10px !important;
     }
 
     .card_card_89 {
-        width: 360px !important;
+        width: 300px !important;
+        border-radius: 10px !important;
     }
 
     .hotel_hotel_34 {
-        padding: 0px 8px 0px 0px;
-        margin: 10px 0px 0px -6px;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 500;
         color: rgb(110, 108, 108);
     }
 
     .flite_98 {
-        height: 40px !important;
-        display: flex;
-        margin-left: -12px;
+        width: 30px !important;
     }
 
-    .car_98 {
-        height: 40px !important;
-    }
+
 
     .card {
         border-radius: 10px !important;
@@ -616,66 +522,55 @@
         border-top: 1px solid rgb(234, 234, 234);
     }
 
-    .hotel_98 {
-        height: 40px !important;
-        width: 50px;
-        padding-right: 10px;
-
+    .flite_99 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .button_btn {
         position: absolute;
         top: 25px !important;
-        left: 67% !important;
-        padding: 5px 10px 5px 10px !important;
+        left: 69% !important;
         border-radius: 4px !important;
         background-color: #CD2B40;
         color: white;
         border: 2px solid #CD2B40;
-        font-size: 14px !important;
+        font-size: 10px !important;
         font-weight: 500;
-    }
-
-    #card_card {
-        border-radius: 20px !important;
-        height: 400px !important;
     }
 
     .bumi {
         background-color: white;
     }
 
-    .bag {
-        height: 40px !important;
-    }
 
     .viewholiday_2 {
         background-color: #FC6722;
         border: 1px solid #FC6722;
         color: white;
-        padding: 6px 10px 6px 10px;
+        height: fit-content;
+        padding: 7px 20px 7px 20px;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 600;
-        margin: 5px 0px 25px 40px;
     }
 
     .title_title {
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 600;
-        margin: -15px 0px 10px 0px !important;
+        margin: 10px 0px 0px 0px;
     }
 
     .from_per_person {
-        font-size: 14px !important;
+        font-size: 10px !important;
         font-weight: 600;
-        margin: 5px 5px 5px 15px;
         color: gray;
     }
 
     .dolor_509 {
         color: #FC6722;
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .package_popular {
@@ -684,8 +579,15 @@
 
     .footer_person {
         display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 10px 0px;
     }
 
+    .card_body_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
     .carousel-control-prev:active {
         color: black;
@@ -700,7 +602,7 @@
     .owl-carousel button.owl-dot.owl-nav {
         position: absolute;
         top: 110%;
-        left: 530px;
+        left: 450px;
         display: block;
         padding: 0px !important;
         font-size: 2em !important;
@@ -716,13 +618,11 @@
         bottom: active;
     }
 
-
-
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel button.owl-dot.owl-nav {
         position: absolute;
-        right: 500px;
+        right: 400px;
         top: 110%;
         display: block;
         padding: 0px !important;
@@ -745,7 +645,7 @@
         height: 400px !important;
         width: 100% !important;
         border-radius: 30px !important;
-        margin-top: 130px !important;
+        margin-top: 120px !important;
     }
 
     .tigger {
@@ -769,8 +669,8 @@
 
     .lorem_p::before {
         content: "";
-        height: 120px;
-        width: 200px;
+        height: 80px;
+        width: 130px;
         background-color: #fd7b27;
         position: absolute;
         bottom: 0px;
@@ -804,6 +704,7 @@
         font-weight: 700;
     }
 
+    
     /* Budget Packages_css */
 
     .budget_text_45 {
@@ -1366,7 +1267,7 @@
 }
 
 
-@media screen and (max-width: 992px) {
+@media(min-width:768px) and (max-width:991px) {
 
     /* Header_css */
 
@@ -1835,7 +1736,6 @@
         padding: 0px 5px 0px 5px;
     }
 
-
     /* Popular-Package_css */
 
     .popular_98 {
@@ -1845,48 +1745,37 @@
 
     .ppopular_exp_77 {
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 50px 0px;
     }
 
     .card_55 {
         margin: 0px auto;
-        padding: 3px;
     }
 
     #card_card {
-        border-radius: 20px !important;
-        height: 300px !important;
+        border-radius: 10px !important;
     }
 
     .nature {
-        padding: 15px !important;
-        height: 200px !important;
+        height: 160px !important;
         width: auto;
         position: relative;
-        border-radius: 30px !important;
+        border-radius: 10px !important;
     }
 
     .card_card_89 {
         width: 220px !important;
+        border-radius: 10px !important;
     }
 
     .hotel_hotel_34 {
-        padding: 0px 18px 0px 5px;
-        margin: 5px 0px 0px -6px;
         font-size: 8px;
         font-weight: 500;
         color: rgb(110, 108, 108);
-        display: inline-block;
     }
 
     .flite_98 {
-        height: 20px !important;
-        display: flex;
-        margin-left: -10px;
-    }
-
-    .car_98 {
-        height: 20px !important;
+        width: 20px !important;
     }
 
     .card {
@@ -1898,22 +1787,21 @@
         border-top: 1px solid rgb(234, 234, 234);
     }
 
-    .hotel_98 {
-        height: 20px !important;
-        width: 20px;
-        margin-right: -5px;
+    .flite_99 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .button_btn {
         position: absolute;
         top: 25px !important;
-        left: 59% !important;
-        padding: 0px 5px 0px 5px !important;
+        left: 64% !important;
         border-radius: 4px !important;
         background-color: #CD2B40;
         color: white;
         border: 2px solid #CD2B40;
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 500;
     }
 
@@ -1921,49 +1809,50 @@
         background-color: white;
     }
 
-    .bag {
-        height: 20px !important;
-    }
 
     .viewholiday_2 {
         background-color: #FC6722;
         border: 1px solid #FC6722;
         color: white;
-        padding: 5px 8px 5px 8px;
+        height: fit-content;
+        padding: 3px 7px 3px 7px;
         border-radius: 5px;
         font-size: 8px;
         font-weight: 600;
-        margin: -30px 0px 10px 10px !important;
-        text-align: center !important;
     }
 
     .title_title {
         font-size: 14px;
         font-weight: 600;
-        margin: -15px 0px 10px 0px !important;
+        margin: 0px 0px 0px 0px;
     }
 
     .from_per_person {
-        font-size: 10px !important;
-        font-weight: 500;
+        font-size: 8px !important;
+        font-weight: 600;
         color: gray;
-        margin: -10px 0px 5px 10px !important;
     }
 
     .dolor_509 {
         color: #FC6722;
-        font-size: 15px;
+        font-size: 10px;
     }
-
 
     .package_popular {
         display: flex;
     }
 
     .footer_person {
-        display: inline-block !important;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 0px 0px;
     }
 
+    .card_body_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
     .carousel-control-prev:active {
         color: black;
@@ -2014,7 +1903,6 @@
         overflow-clip-margin: content-box;
         overflow: hidden;
     }
-
 
     /* Akureyri Iceland_css */
 
@@ -2101,10 +1989,11 @@
 
     .sunlight_12 {
         height: 180px !important;
-        padding: 5px 4px 5px 4px !important;
+        padding: 5px 4px 5px 2px !important;
         position: relative;
         border-radius: 10px 10px 10px 10px !important;
     }
+
 
     .sunlight_13 {
         height: 200px !important;
@@ -2311,6 +2200,11 @@
         padding-right: 0px !important;
     }
 
+
+    .border_card {
+        border: 1px solid white;
+    }
+
     .save_btn_2 {
         background-color: #CD2B40;
         height: 15px !important;
@@ -2328,6 +2222,7 @@
         margin-top: 15px !important;
         border-radius: 15px !important;
         height: 275px !important;
+        width: 470px !important;
         padding: 40px;
 
     }
@@ -2408,31 +2303,31 @@
 
     .trip_22 {
         margin-top: 60px !important;
-        width: 150px !important;
+        width: 160px !important;
         height: 300px !important;
     }
 
     .gap_65 {
         background-color: #fff9f9;
-        padding: 20px 20px 10px 10px;
+        padding: 20px 20px 10px 20px;
         border-radius: 20px;
     }
 
     .gap_66 {
         background-color: #f2f7fd;
-        padding: 20px 20px 10px 10px;
+        padding: 20px 20px 10px 20px;
         border-radius: 20px;
     }
 
     .gap_67 {
         background-color: #f4f9f3;
-        padding: 20px 20px 10px 10px;
+        padding: 20px 20px 10px 20px;
         border-radius: 20px;
     }
 
     .gap_68 {
         background-color: #ece4f0;
-        padding: 20px 20px 10px 10px;
+        padding: 20px 20px 10px 20px;
         border-radius: 20px;
     }
 
@@ -2627,7 +2522,7 @@
     }
 
     .select_option {
-        margin: 20px 20px 20px 20px;
+        margin: 17px 10px 10px 10px;
         border: none;
         color: rgba(255, 106, 0, 0.965);
         font-size: 8px;
@@ -2635,7 +2530,7 @@
     }
 
     .option_select-12 {
-        margin: 20px 20px 20px 20px;
+        margin: 17px 10px 10px 10px;
         border: none;
         color: rgba(255, 106, 0, 0.965);
         font-size: 8px;
@@ -2657,7 +2552,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* Header_css */
 
@@ -3133,7 +3028,8 @@
         padding: 0px 5px 0px 5px;
     }
 
-    /*Popular-Package_css */
+
+    /* Popular-Package_css */
 
     .popular_98 {
         text-align: center;
@@ -3142,48 +3038,37 @@
 
     .ppopular_exp_77 {
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 50px 0px;
     }
 
     .card_55 {
         margin: 0px auto;
-        padding: 3px;
     }
 
     #card_card {
-        border-radius: 20px !important;
-        height: 300px !important;
+        border-radius: 10px !important;
     }
 
     .nature {
-        padding: 15px !important;
-        height: 200px !important;
-        width: 250px;
+        height: 160px !important;
+        width: auto;
         position: relative;
-        border-radius: 30px !important;
+        border-radius: 10px !important;
     }
 
     .card_card_89 {
-        width: 250px !important;
+        width: 220px !important;
+        border-radius: 10px !important;
     }
 
     .hotel_hotel_34 {
-        padding: 0px 18px 0px 5px;
-        margin: 5px 0px 0px -6px;
         font-size: 8px;
         font-weight: 500;
         color: rgb(110, 108, 108);
-        display: inline-block;
     }
 
     .flite_98 {
-        height: 20px !important;
-        display: flex;
-        margin-left: -10px;
-    }
-
-    .car_98 {
-        height: 20px !important;
+        width: 20px !important;
     }
 
     .card {
@@ -3195,22 +3080,21 @@
         border-top: 1px solid rgb(234, 234, 234);
     }
 
-    .hotel_98 {
-        height: 20px !important;
-        width: 20px;
-        margin-right: -5px;
+    .flite_99 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .button_btn {
         position: absolute;
         top: 25px !important;
-        left: 59% !important;
-        padding: 0px 5px 0px 5px !important;
+        left: 64% !important;
         border-radius: 4px !important;
         background-color: #CD2B40;
         color: white;
         border: 2px solid #CD2B40;
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 500;
     }
 
@@ -3218,49 +3102,50 @@
         background-color: white;
     }
 
-    .bag {
-        height: 20px !important;
-    }
 
     .viewholiday_2 {
         background-color: #FC6722;
         border: 1px solid #FC6722;
         color: white;
-        padding: 5px 8px 5px 8px;
+        height: fit-content;
+        padding: 3px 7px 3px 7px;
         border-radius: 5px;
         font-size: 8px;
         font-weight: 600;
-        margin: -30px 0px 10px 10px !important;
-        text-align: center !important;
     }
 
     .title_title {
         font-size: 14px;
         font-weight: 600;
-        margin: -15px 0px 10px 0px !important;
+        margin: 0px 0px 0px 0px;
     }
 
     .from_per_person {
-        font-size: 10px !important;
-        font-weight: 500;
+        font-size: 8px !important;
+        font-weight: 600;
         color: gray;
-        margin: -10px 0px 5px 10px !important;
     }
 
     .dolor_509 {
         color: #FC6722;
-        font-size: 15px;
+        font-size: 10px;
     }
-
 
     .package_popular {
         display: flex;
     }
 
     .footer_person {
-        display: inline-block !important;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 0px 0px;
     }
 
+    .card_body_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
     .carousel-control-prev:active {
         color: black;
@@ -3400,14 +3285,15 @@
     }
 
     .sunlight_12 {
-        height: 180px !important;
-        padding: 5px 4px 5px 4px !important;
+        height: 120px !important;
+        padding: 5px 4px 5px 2px !important;
         position: relative;
         border-radius: 10px 10px 10px 10px !important;
     }
 
+
     .sunlight_13 {
-        height: 200px !important;
+        height: 140px !important;
         padding: 15px !important;
         position: relative;
         border-radius: 20px 20px 20px 20px !important;
@@ -3420,20 +3306,20 @@
 
     .text_14 {
         padding: 0px 15px 15px 15px !important;
-        font-size: 13px !important;
+        font-size: 10px !important;
         font-weight: 600;
     }
 
 
     .text_44 {
         padding: 0px 1px 15px 15px !important;
-        font-size: 13px !important;
+        font-size: 10px !important;
         font-weight: 600;
     }
 
     .text_56 {
         padding: 10px 20px 15px 4px !important;
-        font-size: 13px !important;
+        font-size: 10px !important;
         font-weight: 600;
     }
 
@@ -3461,12 +3347,12 @@
 
     .star_52 {
         height: 10px !important;
-        margin: 0px 5px 0px 10px !important;
+        margin: 1px 0px 0px 10px !important;
     }
 
     .star_60 {
         height: 10px !important;
-        margin: 14px 5px 0px 10px !important;
+        margin: 14px 0px 0px 10px !important;
     }
 
     .star_61 {
@@ -3525,10 +3411,18 @@
         font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
+        padding: 0px 0px 0px 76px !important;
     }
 
     .night_text_22 {
-        padding: 0px 0px 0px 120px;
+        padding: 0px 0px 0px 70px;
+        font-size: 10px;
+        font-weight: 600;
+        color: rgb(110, 105, 105);
+    }
+
+    .night_text_23 {
+        padding: 0px 0px 0px 60px;
         font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
@@ -3554,6 +3448,18 @@
 
     .btn_view_2 {
         margin: -20px 5px 15px 5px !important;
+        padding: 5px !important;
+        background-color: white;
+        color: rgb(255, 90, 30);
+        border: 2px solid rgb(254, 145, 105);
+        border-radius: 5px !important;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+    .btn_view_4 {
+        margin: -20px 10px 10px 10px !important;
         padding: 5px !important;
         background-color: white;
         color: rgb(255, 90, 30);
@@ -3601,14 +3507,16 @@
         background-color: #CD2B40;
         height: 15px !important;
         color: white;
-        font-size: 14px !important;
-        font-weight: 400;
         padding: 0px 7px 0px 0px;
-        margin-top: -45px !important;
+        margin-top: -105px !important;
     }
 
     .bird_bird {
         padding-right: 0px !important;
+    }
+
+    .border_card {
+        border: 1px solid white;
     }
 
     .save_btn_2 {
@@ -3620,14 +3528,16 @@
         margin: 0px 0px 0px -10px;
         border-radius: 3px;
         padding: 1px 7px 2px 0px;
-        margin-top: -45px !important;
+        margin-top: -105px !important;
     }
 
     .budget_23 {
         background: linear-gradient(137deg, rgba(220, 87, 70, 1) 27%, rgba(141, 124, 218, 1) 69%);
         margin-top: 15px !important;
         border-radius: 15px !important;
-        height: 275px !important;
+        height: 225px !important;
+        width: 350px !important;
+        margin-left: 0px !important;
         padding: 40px;
 
     }
@@ -3637,7 +3547,7 @@
         border-radius: 5px !important;
         border: 1px solid white;
         background-color: white;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
         color: #cc3a3c;
     }
@@ -3645,7 +3555,7 @@
     .choose_text {
         margin-top: 20px !important;
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
     }
 
@@ -3654,9 +3564,9 @@
         margin: 10px 10px 0px 0px;
         border-radius: 50px;
         background-color: white;
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 600;
-        width: 40%;
+        width: 45%;
         border: 2px solid white;
     }
 
@@ -3664,9 +3574,9 @@
         padding: 10px 10px 10px 10px !important;
         margin: 10px 10px 0px 0px;
         border-radius: 50px;
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 600;
-        width: 40%;
+        width: 45%;
         border: 1px solid white;
         color: white;
         background: transparent;
@@ -3676,15 +3586,15 @@
     /* our-Customer_css */
 
     .our_customer {
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-weight: 600;
-        margin-top: 100px !important;
+        margin-top: 80px !important;
     }
 
 
     .star_23 {
-        height: 15px !important;
-        width: 15px !important;
+        height: 10px !important;
+        width: 10px !important;
     }
 
     .average_view {
@@ -3694,11 +3604,12 @@
     .comma_67 {
         height: 20px !important;
         width: 20px !important;
-        margin: 40px 0px 20px 100px;
+        margin: 20px 0px 20px 80px;
     }
 
     .women_12 {
-        width: 30px !important;
+        width: 20px !important;
+        height: 20px !important;
         border-radius: 50%;
     }
 
@@ -3708,68 +3619,68 @@
 
     .trip_22 {
         margin-top: 60px !important;
-        width: 150px !important;
-        height: 300px !important;
+        width: 120px !important;
+        height: 170px !important;
     }
 
     .gap_65 {
         background-color: #fff9f9;
-        padding: 20px 20px 10px 10px;
-        border-radius: 20px;
+        padding: 15px 15px 10px 10px;
+        border-radius: 15px;
     }
 
     .gap_66 {
         background-color: #f2f7fd;
-        padding: 20px 20px 10px 10px;
-        border-radius: 20px;
+        padding: 15px 15px 10px 10px;
+        border-radius: 15px;
     }
 
     .gap_67 {
         background-color: #f4f9f3;
-        padding: 20px 20px 10px 10px;
-        border-radius: 20px;
+        padding: 15px 15px 10px 10px;
+        border-radius: 15px;
     }
 
     .gap_68 {
         background-color: #ece4f0;
-        padding: 20px 20px 10px 10px;
-        border-radius: 20px;
+        padding: 15px 15px 10px 10px;
+        border-radius: 15px;
     }
 
     .bangla_45 {
-        margin: -10px 0px 0px 45px;
-        font-size: 10px !important;
+        margin: -8px 0px 0px 35px;
+        font-size: 8px !important;
         font-weight: 600;
         color: #757575;
     }
 
     .santu_mia {
         margin: 0px 0px 0px 15px;
-        font-size: 14px !important;
+        font-size: 10px !important;
         font-weight: 600;
     }
 
     .star_4 {
         color: rgb(240, 94, 40);
         margin: -2px 0px 0px 5px;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 600;
     }
 
     .average_78 {
         color: rgb(115, 112, 112);
-        margin: 0px 0px 0px 7px;
-        font-size: 12px !important;
+        margin: -2px 0px 0px 7px;
+        font-size: 10px !important;
     }
 
     .amazing_service {
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 600 !important;
     }
 
     .my-custom-carousel .owl-nav button.owl-prev {
         position: absolute;
-        top: 50%;
+        top: 65%;
         left: 25px;
         display: block;
         padding: 0px !important;
@@ -3788,8 +3699,8 @@
 
     .my-custom-carousel .owl-nav button.owl-next {
         position: absolute;
-        top: 50%;
-        right: 610px;
+        top: 65%;
+        right: 440px;
         display: block;
         padding: 0px !important;
         font-size: 1.2em !important;
@@ -3813,7 +3724,7 @@
 
     .expertly_12 {
         background-image: url('../images/image087.png');
-        height: 300px;
+        height: 250px;
         width: auto;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3825,13 +3736,13 @@
 
     .your_next {
         text-align: center;
-        font-size: 25px;
+        font-size: 16px;
         font-weight: 600;
     }
 
     .expertly_trips {
         text-align: center;
-        font-size: 12px !important;
+        font-size: 8px !important;
         margin-top: 20px;
         font-weight: 500;
         color: grey;
@@ -3839,9 +3750,9 @@
 
     .join_btn {
         margin: 0px 0px 0px 40% !important;
-        padding: 10px 25px 10px 25px;
+        padding: 5px 15px 5px 15px;
         background-color: rgb(250, 90, 32);
-        font-size: 12px !important;
+        font-size: 8px !important;
         color: white;
         border-radius: 50px;
         border: 2px solid rgb(250, 90, 32);
@@ -3855,7 +3766,7 @@
     .footer_footer {
         background-color: white;
         margin: 140px 0px 20px 0px;
-        height: 320px;
+        height: 350px;
     }
 
     .holidays_64 {
@@ -3897,14 +3808,14 @@
 
     .helpful_links {
         color: rgba(255, 106, 0, 0.965);
-        margin: 80px 0px 10px 0px;
-        font-size: 12px;
+        margin: 80px 0px 0px 0px;
+        font-size: 8px;
         font-weight: 600;
     }
 
     .adventure_12 {
         text-align: left;
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 400;
     }
 
@@ -3920,14 +3831,14 @@
     }
 
     .explore_more {
-        margin: 17px 40px 20px 0px;
+        margin: 17px 10px 10px 0px;
         color: rgb(131, 131, 131);
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 500;
     }
 
     .select_option {
-        margin: 20px 20px 20px 20px;
+        margin: 17px 0px 0px 0px !important;
         border: none;
         color: rgba(255, 106, 0, 0.965);
         font-size: 8px;
@@ -3935,7 +3846,7 @@
     }
 
     .option_select-12 {
-        margin: 20px 20px 20px 20px;
+        margin: 17px 0px 0px 0px !important;
         border: none;
         color: rgba(255, 106, 0, 0.965);
         font-size: 8px;
@@ -3943,16 +3854,17 @@
     }
 
     .help_center {
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 500;
+        margin: 0px 0px 10px 0px;
     }
 
 
 
     .help_center_2 {
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 500;
-        margin-top: 20px;
+        margin: 20px 0px 10px 0px;
     }
 
 }
