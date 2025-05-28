@@ -12,74 +12,8 @@ import tree from '../../../assest/images/trees.jpg';
 import bird from '../../../assest/images/bird.jpg';
 import star from '../../../assest/images/star.png';
 import percentage from '../../../assest/images/percentage_12.png';
-import comma from '../../../assest/images/comma.png';
-import women from '../../../assest/images/women_1.jpg';
 
-
-
-// Sample data for budget-friendly packages
-// const budgetPackages = [
-//     {
-//         id: 1,
-//         image: sunlight,
-//         discount: 10, // Percentage discount
-//         discountCode: 'TAKLAMURAD',
-//         title: 'Desert Rose Resort',
-//         rating: 4.9,
-//         price: 560,
-//         duration: 7,
-//     },
-//     {
-//         id: 2,
-//         image: tree,
-//         discount: 15,
-//         discountCode: 'TAKLAMURAD',
-//         title: 'Desert Rose Resort',
-//         rating: 4.7,
-//         price: 560,
-//         duration: 7,
-//     },
-//     {
-//         id: 3,
-//         image: bird,
-//         discount: 12,
-//         discountCode: 'TAKLAMURAD',
-//         title: 'Desert Rose Resort',
-//         rating: 4.5,
-//         price: 560,
-//         duration: 7,
-//     },
-//     {
-//         id: 4,
-//         image: moon,
-//         discount: 20,
-//         discountCode: 'TAKLAMURAD',
-//         title: 'Desert Rose Resort',
-//         rating: 4.8,
-//         price: 560,
-//         duration: 7,
-//     },
-// ];
-
-    const Budget = () => {
-        const options = {
-            loop: false,
-            nav: true,
-            dots: false,
-
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 4
-                },
-                3000: {
-                    items: 4
-                }
-            }
-        };
-
+const Budget = () => {
     return (
         <>
             <section>
@@ -181,7 +115,7 @@ import women from '../../../assest/images/women_1.jpg';
                                         <button className='btn_view'>View Package Detail</button>
                                     </div>
                                 </div>
-                               
+
                                 <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                                     <div className='budget_23'>
                                         <div>
@@ -194,89 +128,6 @@ import women from '../../../assest/images/women_1.jpg';
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-            <section>
-                <div className='container your_next_23'>
-                    <div className='row'>
-                        <OwlCarousel className='owl-theme my-custom-carousel' {...options}>
-                            <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2 trip_22'>
-                                <div className=''>
-                                    <h1 className='our_customer'>Our Customers Love US</h1>
-                                    <div className='average_view'>
-                                        <img className='star_23' src={star} />
-                                        <p className='star_4'>4.9</p>
-                                        <p className='average_78'>Average reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2 trip_22'>
-                                <div className='gap_65'>
-                                    <p className='amazing_service'>Amazing Service! Our Trip Was Perfectly Organized, And Every Detail Was Taken Care Of. Highly Recommand!</p>
-                                    <img className='comma_67' src={comma} />
-                                    <div className='women_div'>
-                                        <img className='women_12' src={women} />
-                                        <p className='santu_mia'>Sentu Mia</p>
-                                    </div>
-                                    <p className='bangla_45'>Bangladesh</p>
-                                </div>
-                            </div>
-                            <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2 trip_22 '>
-                                <div className='gap_66'>
-                                    <p className='amazing_service'>Amazing Service! Our Trip Was Perfectly Organized, And Every Detail Was Taken Care Of. Highly Recommand!</p>
-                                    <img className='comma_67' src={comma} />
-                                    <div className='women_div'>
-                                        <img className='women_12' src={women} />
-                                        <p className='santu_mia'>Sentu Mia</p>
-                                    </div>
-                                    <p className='bangla_45'>Bangladesh</p>
-                                </div>
-                            </div>
-                            <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2 trip_22 '>
-                                <div className='gap_67'>
-                                    <p className='amazing_service'>Amazing Service! Our Trip Was Perfectly Organized, And Every Detail Was Taken Care Of. Highly Recommand!</p>
-                                    <img className='comma_67' src={comma} />
-                                    <div className='women_div'>
-                                        <img className='women_12' src={women} />
-                                        <p className='santu_mia'>Sentu Mia</p>
-                                    </div>
-                                    <p className='bangla_45'>Bangladesh</p>
-                                </div>
-                            </div>
-                            <div className='col-sm-2 col-md-2 col-lg-2 col-xl-2 trip_22 '>
-                                <div className='gap_68'>
-                                    <p className='amazing_service'>Amazing Service! Our Trip Was Perfectly Organized, And Every Detail Was Taken Care Of. Highly Recommand!</p>
-                                    <img className='comma_67' src={comma} />
-                                    <div className='women_div'>
-                                        <img className='women_12' src={women} />
-                                        <p className='santu_mia'>Sentu Mia</p>
-                                    </div>
-                                    <p className='bangla_45'>Bangladesh</p>
-                                </div>
-                            </div>
-                        </OwlCarousel>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section>
-                <div className='container your_next_23'>
-                    <div className='row your_next_23'>
-                        <div className='col-md-12'>
-                            <div className='expertly_12'>
-                                {/* <img src={frame4}/> */}
-                                <h1 className='your_next'>Your Next Adventure Awaits. Join Us And Make Memories Around The Globe!</h1>
-                                <p className='expertly_trips'>Expertly crafted trips tailored for you.From hidden gems to iconic landmarksm, we'll handle everything while you create unforgettable memories.</p>
-                                <button className='join_btn'>Join With Us</button>
                             </div>
                         </div>
                     </div>

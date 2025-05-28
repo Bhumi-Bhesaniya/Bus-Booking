@@ -5,12 +5,11 @@ import './assest/responsive/responsive.css'
 import Home from './screen/Home/Home';
 
 import Booking from './screen/Home/HomeComponent/Booking.jsx';
-import Package from './screen/Home/HomeComponent/Package.jsx'
 import Budget from './screen/Home/HomeComponent/Budget.jsx';
+import CustomerReview from './screen/Home/HomeComponent/CustomerReview.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Header from './components/Header/Header.jsx';
 import MyCarousel from './screen/Home/HomeComponent/Package.jsx';
-
 
 
 
@@ -22,6 +21,7 @@ function App() {
       <Booking/>
       <MyCarousel />
       <Budget />
+      <CustomerReview />
       <Footer />
     </>
   );

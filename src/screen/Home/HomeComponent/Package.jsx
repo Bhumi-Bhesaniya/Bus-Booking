@@ -107,7 +107,7 @@ const MyCarousel = () => {
                     <div className="row">
                         <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                             <h2 className='popular_98'>Popular Package For Your Holidays</h2>
-                            <p className='ppopular_exp_77'>Explore our top vacation packages designed to offer unforgettable experiences and unbeatable value.</p>
+                            <p className='ppopular_exp_77'>Explore our top vacation packages designed to offer unforgettable <br></br> experiences and unbeatable value.</p>
                         </div>
                     </div>
 

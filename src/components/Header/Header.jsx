@@ -22,13 +22,13 @@ function Header() {
                 <section className='header_section'>
                     <div className='container'>
                         <div className='row row_row_23'>
-                            <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3 '>
+                            <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3'>
                                 <div className='flight_2'>
                                     <img className="easy" src={easy} />
                                     <p className='easy_holidays'>holidays</p>
                                 </div>
                             </div>
-                            <div className='col-sm-5 col-md-5 col-lg-5 col-xl-5'>
+                            <div className='col-xl-5 col-lg-5 col-md-5 col-sm-4 '>
                                 <div className='flight_2 header_h'>
                                     <div className='flight_2'>
                                         <img className="flite" src={flite} />
@@ -48,7 +48,7 @@ function Header() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 header_text'>
+                            <div className=' col-xl-4 col-lg-4 col-md-4 col-sm-4   header_text'>
                                 <div className='flight_2'>
                                     <div>
                                         <img className='lines_lines' src={lines} />

@@ -40,7 +40,7 @@
 
 
 body {
-  background-color: #F2F0F1 !important;
+  background-color: #f2f0f1 !important;
 }
 
 /* Header_css */
@@ -57,6 +57,7 @@ body {
 
 .row_row_23 {
   padding-bottom: 10px;
+  justify-content: space-between;
 }
 
 
@@ -506,12 +507,17 @@ input[type="checkbox"] {
 
 .popular_98 {
   text-align: center;
-  margin: 180px 0px 0px 0px !important;
+  margin: 150px 0px 0px 0px !important;
+  font-size: 34px !important;
+  font-weight: 600;
 }
 
 .ppopular_exp_77 {
   text-align: center;
-  margin: 0px 0px 50px 0px;
+  margin: 15px 0px 50px 0px;
+  font-size: 16px !important;
+  font-weight: 500;
+  color: #565658;
 }
 
 .card_55 {
@@ -677,11 +683,12 @@ width: 30px !important;
 /* Akureyri Iceland_css */
 
 
+
 .slider {
   height: 500px !important;
   width: 100% !important;
   border-radius: 30px !important;
-  margin-top: 130px !important;
+  margin-top: 200px !important;
 }
 
 .tigger {
@@ -692,7 +699,7 @@ width: 30px !important;
   height: 500px !important;
   background-position: 30px -100px !important;
   border-radius: 20px 20px !important;
-  margin-top: 120px !important;
+  margin-top: 200px !important;
 }
 
 .lorem_p {
@@ -1029,8 +1036,12 @@ width: 30px !important;
 
 .our_customer {
   font-size: 40px !important;
+  margin-top: 120px !important;
 }
 
+.our_customer_row {
+  margin-top: 100px !important;
+}
 
 .star_23 {
   height: 25px !important;
@@ -1044,8 +1055,10 @@ width: 30px !important;
 .comma_67 {
   height: 40px !important;
   width: 40px !important;
-  margin: 80px 0px 40px 80%;
+  margin: 60px 0px 40px 80%;
 }
+
+
 
 .women_12 {
   width: 50px !important;
@@ -1058,44 +1071,24 @@ width: 30px !important;
 
 .trip_22 {
   margin-top: 60px !important;
-  width: 305px !important;
-  height: 500px !important;
+  width: 285px !important;
 }
 
 .gap_65 {
   background-color: #fff9f9;
-  padding: 30px 30px 20px 20px;
+  padding: 30px 20px 20px 20px;
   border-radius: 20px;
 }
-
-.gap_66 {
-  background-color: #f2f7fd;
-  padding: 30px 30px 20px 20px;
-  border-radius: 20px;
-}
-
-.gap_67 {
-  background-color: #f4f9f3;
-  padding: 30px 30px 20px 20px;
-  border-radius: 20px;
-}
-
-.gap_68 {
-  background-color: #ece4f0;
-  padding: 30px 30px 20px 20px;
-  border-radius: 20px;
-}
-
 .bangla_45 {
-  margin: -25px 0px 0px 65px;
-  font-size: 16px !important;
+  margin: -20px 0px 0px 65px;
+  font-size: 12px !important;
   font-weight: 600;
   color: #757575;
 }
 
 .santu_mia {
-  margin: 0px 0px 0px 15px;
-  font-size: 20px !important;
+  margin: 10px 0px 0px 15px;
+  font-size: 16px !important;
   font-weight: 600;
 }
 
@@ -1111,13 +1104,13 @@ width: 30px !important;
 }
 
 .amazing_service {
-  font-size: 19px !important;
+  font-size: 16px !important;
   font-weight: 600 !important;
 }
 
 .my-custom-carousel .owl-nav button.owl-prev {
   position: absolute;
-  top: 45%;
+  top: 75%;
   left: 40px;
   display: block;
   padding: 0px !important;
@@ -1135,7 +1128,7 @@ width: 30px !important;
 
 .my-custom-carousel .owl-nav button.owl-next {
   position: absolute;
-  top: 45%;
+  top: 75%;
   right: 1170px;
   display: block;
   padding: 0px !important;
@@ -1158,6 +1151,9 @@ width: 30px !important;
 
 /* Adventure-Awaits_css */
 
+.your_next_24{
+  margin-top: 150px !important;
+}
 
 .expertly_12 {
   background-image: url('./assest/images/image087.png');
@@ -1167,7 +1163,7 @@ width: 30px !important;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px 20px !important;
-  margin: 20px !important;
+  margin: 0px !important;
   padding: 100px 100px 100px 100px !important;
 }
 
@@ -1202,7 +1198,7 @@ width: 30px !important;
 
 .footer_footer {
   background-color: white;
-  margin: 140px 0px 20px 0px;
+  margin: 170px 0px 0px 0px;
   height: 470px;
 }
 

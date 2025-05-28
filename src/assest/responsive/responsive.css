@@ -13,6 +13,7 @@
 
     .row_row_23 {
         padding-bottom: 10px;
+        justify-content: space-between;
     }
 
 
@@ -750,44 +751,36 @@
 
     .text_44 {
         padding: 0px 1px 15px 15px !important;
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-weight: 600;
     }
 
     .text_56 {
         padding: 10px 20px 15px 4px !important;
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-weight: 600;
-    }
-
-    .star_56 {
-        height: 20px !important;
-        margin: 13px 5px 0px 100px;
-    }
-
-    .star_58 {
-        height: 20px !important;
-        margin: 4px 5px 0px 80px;
     }
 
     .star_51 {
         margin: 3px 15px 0px 0px !important;
         color: rgb(223, 81, 30);
+        font-size: 12px !important;
     }
 
     .star_52 {
-        height: 20px !important;
-        margin: 4px 5px 0px 100px !important;
+        height: 15px !important;
+        margin: 4px 5px 0px 0px !important;
     }
 
     .star_60 {
-        height: 20px !important;
-        margin: 14px 5px 0px 100px !important;
+        height: 15px !important;
+        margin: 14px 5px 0px 0px !important;
     }
 
     .star_61 {
         margin: 13px 0px 0px 0px !important;
         color: rgb(223, 81, 30);
+        font-size: 12px !important;
     }
 
     .div_div {
@@ -824,8 +817,8 @@
     .text_night {
         display: flex;
         padding: 15px !important;
-        margin: -35px 0px 0px -10px !important;
-        font-size: 15px;
+        /* margin: -35px 0px 0px -10px !important; */
+        font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
         justify-content: space-between !important;
@@ -834,21 +827,21 @@
     .text_night_2 {
         display: flex;
         padding: 15px !important;
-        margin: -35px 0px 0px 0px !important;
-        font-size: 15px;
+        /* margin: -35px 0px 0px 0px !important; */
+        font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
+        justify-content: space-between;
     }
 
     .night_text22 {
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
     }
 
     .night_text_22 {
-        padding: 0px 0px 0px 70%;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
     }
@@ -920,8 +913,6 @@
         background-color: #CD2B40;
         height: 20px !important;
         color: white;
-        font-size: 14px !important;
-        font-weight: 400;
         padding: 0px 7px 0px 0px;
     }
 
@@ -933,7 +924,7 @@
         background-color: #CD2B40;
         height: 20px !important;
         color: white;
-        font-size: 12px !important;
+        font-size: 10px !important;
         font-weight: 400;
         margin: 0px 0px 0px -10px;
         border-radius: 3px;
@@ -944,7 +935,7 @@
         background: linear-gradient(137deg, rgba(220, 87, 70, 1) 27%, rgba(141, 124, 218, 1) 69%);
         margin-top: 15px !important;
         border-radius: 15px !important;
-        height: 355px !important;
+        height: 335px !important;
         padding: 40px;
 
     }
@@ -954,7 +945,7 @@
         border-radius: 5px !important;
         border: 1px solid white;
         background-color: white;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 500;
         color: #cc3a3c;
     }
@@ -962,7 +953,7 @@
     .choose_text {
         margin-top: 20px !important;
         color: white;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 500;
     }
 
@@ -971,9 +962,9 @@
         margin: 30px 30px 0px 0px;
         border-radius: 50px;
         background-color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
-        width: 27%;
+        width: 30%;
         border: 2px solid white;
     }
 
@@ -981,9 +972,9 @@
         padding: 10px 15px 10px 15px !important;
         margin: 30px 30px 0px 0px;
         border-radius: 50px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
-        width: 27%;
+        width: 30%;
         border: 1px solid white;
         color: white;
         background: transparent;
@@ -992,13 +983,15 @@
     /* our-Customer_css */
 
     .our_customer {
-        font-size: 30px !important;
+        font-size: 28px !important;
+        margin: 120px 0px 0px 0px !important;
     }
 
 
     .star_23 {
-        height: 20px !important;
-        width: 20px !important;
+        height: 15px !important;
+        width: 15px !important;
+        margin: 4px 0px 0px 0px;
     }
 
     .average_view {
@@ -1006,13 +999,14 @@
     }
 
     .comma_67 {
-        height: 40px !important;
-        width: 40px !important;
-        margin: 50px 0px 30px 80%;
+        height: 35px !important;
+        width: 35px !important;
+        align-items: end !important;
+        margin-top: 30px !important;
     }
 
     .women_12 {
-        width: 50px !important;
+        width: 40px !important;
         border-radius: 50%;
     }
 
@@ -1022,8 +1016,8 @@
 
     .trip_22 {
         margin-top: 60px !important;
-        width: 260px !important;
-        height: 400px !important;
+        width: 220px !important;
+        height: 280px !important;
     }
 
     .gap_65 {
@@ -1051,15 +1045,15 @@
     }
 
     .bangla_45 {
-        margin: -25px 0px 0px 65px;
-        font-size: 16px !important;
+        margin: -20px 0px 0px 55px;
+        font-size: 12px !important;
         font-weight: 600;
         color: #757575;
     }
 
     .santu_mia {
         margin: 0px 0px 0px 15px;
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-weight: 600;
     }
 
@@ -1071,18 +1065,18 @@
 
     .average_78 {
         color: rgb(115, 112, 112);
-        margin: 3px 0px 0px 7px;
-        font-size: 14px !important;
+        margin: 5px 0px 0px 7px;
+        font-size: 12px !important;
     }
 
     .amazing_service {
-        font-size: 14px !important;
+        font-size: 12px !important;
         font-weight: 600 !important;
     }
 
     .my-custom-carousel .owl-nav button.owl-prev {
         position: absolute;
-        top: 45%;
+        top: 60%;
         left: 40px;
         display: block;
         padding: 0px !important;
@@ -1100,8 +1094,8 @@
 
     .my-custom-carousel .owl-nav button.owl-next {
         position: absolute;
-        top: 45%;
-        right: 990px;
+        top: 60%;
+        right: 810px;
         display: block;
         padding: 0px !important;
         font-size: 2em !important;
@@ -1121,6 +1115,10 @@
     /* Adventure-Awaits_css */
 
 
+          .your_next_24 {
+              margin-top: 0px !important;
+          }
+
     .expertly_12 {
         background-image: url('../images/image087.png');
         height: 400px;
@@ -1135,13 +1133,13 @@
 
     .your_next {
         text-align: center;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 600;
     }
 
     .expertly_trips {
         text-align: center;
-        font-size: 16px !important;
+        font-size: 14px !important;
         margin-top: 20px;
         font-weight: 500;
         color: grey;
@@ -1151,11 +1149,11 @@
         margin: 0px 0px 0px 42% !important;
         padding: 10px 35px 10px 35px;
         background-color: rgb(250, 90, 32);
-        font-size: 18px !important;
+        font-size: 14px !important;
         color: white;
         border-radius: 50px;
         border: 2px solid rgb(250, 90, 32);
-        font-weight: 500;
+        font-weight: 600;
     }
 
 
@@ -1164,14 +1162,14 @@
 
     .footer_footer {
         background-color: white;
-        margin: 140px 0px 20px 0px;
-        height: 470px;
+        margin: 140px 0px 0px 0px;
+        height: 370px;
     }
 
     .holidays_64 {
         color: rgba(255, 106, 0, 0.965);
-        margin: 80px 10px 10px 10px;
-        font-size: 28px;
+        margin: 85px 10px 10px 10px;
+        font-size: 20px;
         font-weight: 400;
     }
 
@@ -1181,40 +1179,40 @@
     }
 
     .facebook {
-        height: 35px;
-        margin: 10px 0px 100px 0px;
+        height: 25px;
+        margin: 10px 0px 50px 0px;
     }
 
     .insta {
-        height: 40px;
-        margin: 10px 0px 100px 10px;
+        height: 30px;
+        margin: 10px 0px 50px 10px;
     }
 
     .twitter {
-        height: 40px;
-        margin: 10px 0px 100px 10px;
+        height: 30px;
+        margin: 10px 0px 50px 10px;
     }
 
     .in_image {
-        height: 40px;
-        margin: 10px 0px 100px 10px;
+        height: 30px;
+        margin: 10px 0px 50px 10px;
     }
 
     .youtube_98 {
-        height: 45px;
-        margin: 10px 0px 100px 10px;
+        height: 35px;
+        margin: 10px 0px 50px 10px;
     }
 
     .helpful_links {
         color: rgba(255, 106, 0, 0.965);
         margin: 80px 0px 10px 0px;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
     }
 
     .adventure_12 {
         text-align: left;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 500;
         margin: 20px 0px 0px 0px;
         color: rgb(79, 79, 79);
@@ -1226,41 +1224,41 @@
     }
 
     .follow_78 {
-        font-size: 14px;
+        font-size: 10px;
         color: gray;
-        margin: 20px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     .explore_more {
         margin: 30px 250px 20px 0px;
         color: rgb(131, 131, 131);
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
     }
 
     .select_option {
-        margin: 30px 10px 10px 10px;
+        margin: 30px 5px 5px 0px;
         border: none;
         color: rgba(255, 106, 0, 0.965);
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 450;
     }
 
     .option_select-12 {
-        margin: 10px 10px 10px 10px !important;
+        margin: 5px 5px 5px 5px !important;
         border: none;
         color: rgba(255, 106, 0, 0.965);
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 450;
     }
 
     .help_center {
-        font-size: 16px !important;
+        font-size: 12px !important;
         font-weight: 500;
     }
 
     .help_center_2 {
-        font-size: 16px !important;
+        font-size: 12px !important;
         font-weight: 500;
         margin-top: 20px;
     }
@@ -1283,6 +1281,7 @@
 
     .row_row_23 {
         padding-bottom: 10px;
+        justify-content: space-between;
     }
 
     .flite {
@@ -1294,18 +1293,18 @@
     .umbrella {
         height: 25px !important;
         padding: 0px 0px 0px 15px;
-        margin: 2px 0px 0px 0px;
+        margin: 8px 0px 0px 0px;
     }
 
     .hotel {
         height: 30px !important;
         padding: 0px 0px 0px 15px;
-        margin: 2px 0px 0px 0px;
+        margin: 8px 0px 0px 0px;
     }
 
     .lines_lines {
         height: 30px !important;
-        margin: 18px 5px 0px 40px !important;
+        margin: 18px 5px 0px 0px !important;
     }
 
     .header_section {
@@ -1320,7 +1319,7 @@
     .car {
         height: 30px !important;
         padding: 0px 0px 0px 15px;
-        margin: 2px 0px 0px 0px;
+        margin: 8px 0px 0px 0px;
     }
 
     .guj_english {
@@ -2277,6 +2276,10 @@
     }
 
 
+.our_customer_row {
+    margin-top: 50px !important;
+}
+
     .star_23 {
         height: 15px !important;
         width: 15px !important;
@@ -2405,6 +2408,9 @@
 
     /* Adventure-Awaits_css */
 
+          .your_next_24 {
+              margin-top: 0px !important;
+          }
 
     .expertly_12 {
         background-image: url('../images/image087.png');
@@ -2449,7 +2455,7 @@
 
     .footer_footer {
         background-color: white;
-        margin: 140px 0px 20px 0px;
+        margin: 140px 0px 0px 0px;
         height: 320px;
     }
 
@@ -2568,28 +2574,30 @@
 
     .row_row_23 {
         padding-bottom: 10px;
+        justify-content: space-between;
     }
 
 
     .flite {
-        height: 25px !important;
-        padding: 0px 0px 0px 5px;
+        height: 30px !important;
+        padding: 5px 0px 0px 5px;
+
     }
 
     .umbrella {
         height: 30px !important;
-        padding: 0px 0px 0px 5px;
+        padding: 5px 0px 0px 5px;
 
     }
 
     .hotel {
         height: 30px !important;
-        padding: 0px 0px 0px 5px;
+        padding: 5px 0px 0px 5px;
     }
 
     .lines_lines {
-        height: 25px !important;
-        margin: 15px 5px 0px 30px !important;
+        height: 20px !important;
+        margin: 15px 5px 0px 0px !important;
 
     }
 
@@ -2598,13 +2606,13 @@
     }
 
     .men {
-        height: 20px !important;
+        height: 15px !important;
         margin: 18px 5px 0px 0px !important;
     }
 
     .car {
         height: 30px !important;
-        padding: 0px 0px 0px 5px;
+        padding: 5px 0px 0px 5px;
     }
 
     .guj_english {
@@ -2612,11 +2620,11 @@
         /* margin: 25px 0px 0px 30px; */
         border-radius: 25px !important;
         padding: 0px;
-        height: 20px;
-        width: 50px;
+        height: 15px;
+        width: 40px;
         padding: 5px 5px 5px 5px !;
         border: 2px solid white;
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .flight_hotel {
@@ -2654,7 +2662,7 @@
         background-color: white;
         border-radius: 50px !important;
         margin: 10px 0px 0px -20px;
-        width: 276px;
+        width: 260px;
     }
 
 
@@ -3401,10 +3409,10 @@
     .text_night_2 {
         display: flex;
         padding: 15px !important;
-        margin: -35px 0px 0px 0px !important;
         font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
+        justify-content: space-between;
     }
 
     .night_text22 {
@@ -3415,7 +3423,7 @@
     }
 
     .night_text_22 {
-        padding: 0px 0px 0px 70px;
+        padding: 0px 0px 0px 0px;
         font-size: 10px;
         font-weight: 600;
         color: rgb(110, 105, 105);
@@ -3592,6 +3600,10 @@
     }
 
 
+.our_customer_row {
+    margin-top: 50px !important;
+}
+
     .star_23 {
         height: 10px !important;
         width: 10px !important;
@@ -3721,6 +3733,9 @@
 
     /* Adventure-Awaits_css */
 
+        .your_next_24 {
+            margin-top: 50px !important;
+        }
 
     .expertly_12 {
         background-image: url('../images/image087.png');
@@ -3765,8 +3780,8 @@
 
     .footer_footer {
         background-color: white;
-        margin: 140px 0px 20px 0px;
-        height: 350px;
+        margin: 140px 0px 0px 0px;
+        height: 300px;
     }
 
     .holidays_64 {
@@ -3838,7 +3853,7 @@
     }
 
     .select_option {
-        margin: 17px 0px 0px 0px !important;
+        margin: 17px 0px 0px 4px !important;
         border: none;
         color: rgba(255, 106, 0, 0.965);
         font-size: 8px;
