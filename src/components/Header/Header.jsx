@@ -14,7 +14,7 @@ function Header() {
                 <div className='container-fluid'>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 text_test" >
-                            <p className='travel_holiday'>HOLIDAYS TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAY HOLIDAYS TRAVEL UP.</p>
+                            <p className='travel_holiday'>HOLIDAYS TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAYS , TRAVEL UP TO OCT 25 SAVE UP TO $200 ON HOLIDAY HOLIDAYS TRAVEL UP.$200</p>
                         </div>
                     </div>
                 </div>
@@ -30,21 +30,21 @@ function Header() {
                             </div>
                             <div className='col-xl-5 col-lg-5 col-md-5 col-sm-4 '>
                                 <div className='flight_2 header_h'>
-                                    <div className='flight_2'>
+                                    <div className='flight_2 flight_background'>
                                         <img className="flite" src={flite} />
                                         <p className='flight_hotel'>Flight</p>
                                     </div>
                                     <div className='flight_2'>
                                         <img className='umbrella' src={umbrella} />
-                                        <p className='flight_hotel'>Packages</p>
+                                        <p className='flight_hotel_22'>Packages</p>
                                     </div>
                                     <div className='flight_2'>
                                         <img className="hotel" src={hotel} />
-                                        <p className='flight_hotel'>Hotels</p>
+                                        <p className='flight_hotel_22'>Hotels</p>
                                     </div>
                                     <div className='flight_2'>
                                         <img className="car" src={car} />
-                                        <p className='flight_hotel'>Cars</p>
+                                        <p className='flight_hotel_22'>Cars</p>
                                     </div>
                                 </div>
                             </div>

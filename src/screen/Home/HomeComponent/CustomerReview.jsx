@@ -91,8 +91,6 @@ const CustomerReview = () => {
                                     </div>
                                 </div>
                             ))}
-
-
                         </OwlCarousel>
                     </div>
                 </div>

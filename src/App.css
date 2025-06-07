@@ -47,12 +47,12 @@ body {
 
 .flight_2 {
   display: flex;
-
 }
 
 .easy {
-  height: 50px !important;
+  height: 40px !important;
   margin-top: 10px;
+
 }
 
 .row_row_23 {
@@ -60,25 +60,25 @@ body {
   justify-content: space-between;
 }
 
-
 .flite {
-  height: 50px !important;
-  padding: 0px 0px 0px 15px;
+  height: 40px !important;
+  padding: 0px 0px 0px 0px;
 }
 
 .umbrella {
-  height: 50px !important;
-  padding: 0px 0px 0px 15px;
-
+  height: 40px !important;
+  padding: 0px 0px 0px 10px;
+  margin-top: 5px !important;
 }
 
 .hotel {
-  height: 50px !important;
-  padding: 0px 0px 0px 15px;
+  height: 40px !important;
+  padding: 0px 0px 0px 20px;
+  margin-top: 5px !important;
 }
 
 .lines_lines {
-  height: 40px !important;
+  height: 30px !important;
   margin: 20px 10px 0px 0px !important;
 }
 
@@ -87,46 +87,57 @@ body {
 }
 
 .men {
-  height: 30px !important;
+  height: 20px !important;
   margin: 25px 15px 0px 0px !important;
 }
 
 .car {
-  height: 50px !important;
-  padding: 0px 0px 0px 15px;
+  height: 40px !important;
+  padding: 0px 0px 0px 20px;
+  margin-top: 5px !important;
 }
 
 .guj_english {
-  margin-top: 25px;
+  margin-top: 20px;
   /* margin: 25px 0px 0px 30px; */
   border-radius: 25px !important;
   padding: 0px;
   height: 30px;
-  width: 70px;
+  width: 60px;
   padding: 5px 5px 5px 5px !;
   border: 2px solid white;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #767479;
 }
 
 .flight_hotel {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f5731c;
+}
+
+.flight_hotel_22 {
   margin-top: 12px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   color: rgb(87, 87, 87);
 }
 
+
 .text_test {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
+  /* text-align: center; */
   background-color: #CD2B40;
   color: white;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .easy_holidays {
-  margin: 20px 10px 0px 5px;
+  margin: 15px 0px 0px 5px;
   color: rgba(255, 106, 0, 0.965);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -139,13 +150,24 @@ body {
 .header_h {
   background-color: white;
   border-radius: 50px;
-  margin: 10px 0px 0px -80px;
-  width: 510px;
+  margin: 10px 0px 0px -120px;
+  width: 460px;
+  height: 50px !important;
 }
 
 .travel_holiday {
   margin-top: 10px !important;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 auto;
+
+}
+
+.flight_background {
+  background-color: #ffe9db;
+  border-radius: 50px !important;
+  margin: 4px !important;
+  width: 100px !important;
 }
 
 
@@ -167,7 +189,6 @@ body {
   text-align: center;
   font-size: 80px !important;
   font-weight: 700;
-  /* color: rgb(191, 131, 131); */
   color: white;
   padding: 60px 100px 100px 100px !important;
 }
@@ -188,6 +209,7 @@ body {
 .flight_52 {
   display: flex;
   border-bottom: 3px solid #ff6701;
+  margin-left: 10px;
 }
 
 .flite_sec_2 {
@@ -201,7 +223,7 @@ body {
   border-radius: 20px !important;
   background-color: white;
   margin: 0 auto !important;
-  margin-top: -120px !important;
+  margin-top: -100px !important;
   padding: 0px !important;
 
 }
@@ -225,7 +247,7 @@ body {
 
 .car_2 {
   height: 50px !important;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 10px;
 }
 
 .nav_nav {
@@ -269,15 +291,15 @@ body {
 }
 
 .svg_svg_3 {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   margin: 10px 0px 0px 10px;
 }
 
 .label_checkbox {
   margin: 7px 20px 0px 10px;
   display: flex;
-  font-size: 14px !important;
+  font-size: 12px !important;
   font-weight: 500;
   color: gray;
 }
@@ -292,8 +314,8 @@ input[type="checkbox"] {
 }
 
 .label_checkbox_2 {
-  margin: 7px 0px 0px 35px;
-  font-size: 14px !important;
+  margin: 5px 0px 0px 35px;
+  font-size: 12px !important;
   font-weight: 500;
   color: gray;
   display: flex;
@@ -313,10 +335,13 @@ input[type="checkbox"] {
 .place_holder {
   padding: 12px 7px 12px 7px !important;
   font-size: 16px !important;
+  font-weight: 600 !important;
+  color: black !important;
 }
 
 .number_placeholder {
   font-size: 16px !important;
+  font-weight: 700 !important;
 }
 
 .next_sec_2 {
@@ -483,12 +508,11 @@ input[type="checkbox"] {
 .booking_img {
   height: 80px;
   padding: 30px 0px 0px 70px;
-  background-color: white;
 }
 
 .easy_1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 500;
   padding: 30px 0px 10px 0px;
 }
@@ -521,12 +545,12 @@ input[type="checkbox"] {
 }
 
 .card_55 {
-  margin: 0px auto;
+  margin: 10px auto;
 }
 
 #card_card {
   border-radius: 30px !important;
- 
+
 }
 
 
@@ -539,7 +563,7 @@ input[type="checkbox"] {
 
 .card_card_89 {
   width: 420px !important;
-  
+
 }
 
 .hotel_hotel_34 {
@@ -549,9 +573,8 @@ input[type="checkbox"] {
 }
 
 .flite_98 {
-width: 30px !important;
+  width: 30px !important;
 }
-
 
 
 .card {
@@ -563,7 +586,7 @@ width: 30px !important;
   border-top: 1px solid rgb(234, 234, 234);
 }
 
-.flite_99{
+.flite_99 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -623,7 +646,7 @@ width: 30px !important;
   margin: 0px 0px 10px 0px;
 }
 
-.card_body_2{
+.card_body_2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -687,7 +710,7 @@ width: 30px !important;
 .slider {
   height: 500px !important;
   width: 100% !important;
-  border-radius: 30px !important;
+  border-radius: 40px !important;
   margin-top: 200px !important;
 }
 
@@ -698,26 +721,28 @@ width: 30px !important;
   width: 100% !important;
   height: 500px !important;
   background-position: 30px -100px !important;
-  border-radius: 20px 20px !important;
+  border-radius: 40px 40px !important;
   margin-top: 200px !important;
 }
 
+
 .lorem_p {
-  border-radius: 20px 300px 300px 20px !important;
+  border-radius: 40px 300px 300px 50px !important;
   background-color: #FC6722;
   height: 500px !important;
   position: relative;
-
 }
+
 
 .lorem_p::before {
   content: "";
-  height: 120px;
-  width: 200px;
+  height: 150px;
+  width: 270px;
   background-color: #fd7b27;
   position: absolute;
   bottom: 0px;
-  border-radius: 0px 90px 0px 20px;
+  border-radius: 0px 250px 0px 50px;
+  z-index: 1;
 }
 
 
@@ -725,16 +750,17 @@ width: 30px !important;
   margin-top: 20% !important;
   padding: 120px 100px 0px 50px !important;
   color: white;
-  font-size: 55px;
+  font-size: 54px;
   font-weight: 500;
 }
 
 .paragraph_23 {
   padding: 10px 100px 0px 50px !important;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
+
 
 .paragraph_24 {
   padding: 20px 50px 20px 50px !important;
@@ -745,6 +771,9 @@ width: 30px !important;
   color: #FC6722;
   font-size: 17px;
   font-weight: 700;
+  position: relative;
+  z-index: 2;
+
 }
 
 
@@ -753,7 +782,7 @@ width: 30px !important;
 .budget_text_45 {
   text-align: center;
   margin: 180px 0px 0px 0px !important;
-  font-size: 37px;
+  font-size: 36px;
   font-weight: 600;
 }
 
@@ -772,16 +801,15 @@ width: 30px !important;
   border-radius: 10px 10px 10px 10px !important;
 }
 
-.sunlight_13 {
+/* .sunlight_13 {
   height: 250px !important;
   padding: 15px !important;
   position: relative;
   border-radius: 20px 20px 20px 20px !important;
-}
+} */
 
 .card_sunlight {
   border: 0px !important;
-
 }
 
 .text_14 {
@@ -791,11 +819,11 @@ width: 30px !important;
 }
 
 
-.text_44 {
+/* .text_44 {
   padding: 0px 1px 15px 15px !important;
   font-size: 24.5px !important;
   font-weight: 600;
-}
+} */
 
 .text_56 {
   padding: 10px 20px 15px 4px !important;
@@ -803,17 +831,7 @@ width: 30px !important;
   font-weight: 600;
 }
 
-.star_56 {
-  height: 20px !important;
-  margin: 13px 5px 0px 100px;
-}
-
-.star_58 {
-  height: 20px !important;
-  margin: 4px 5px 0px 100px;
-}
-
-.star_51 {
+/* .star_51 {
   margin: 3px 15px 0px 0px !important;
   color: rgb(223, 81, 30);
 }
@@ -821,7 +839,7 @@ width: 30px !important;
 .star_52 {
   height: 20px !important;
   margin: 4px 5px 0px 130px !important;
-}
+} */
 
 .star_60 {
   height: 20px !important;
@@ -835,9 +853,10 @@ width: 30px !important;
 
 .div_div {
   background-color: white;
-  background: '#fff';
   padding: 10px;
   border-radius: 10px;
+  margin: 10px;
+  width: 420px !important;
 }
 
 .sunlight_border {
@@ -845,9 +864,9 @@ width: 30px !important;
   margin-bottom: -4px;
 }
 
-.card_sunlight_2 {
-  margin-top: 16px;
-}
+/* .card_sunlight_2 {
+  margin-top: 0px;
+} */
 
 .text_15 {
   display: flex;
@@ -874,6 +893,7 @@ width: 30px !important;
   justify-content: space-between !important;
 }
 
+/* 
 .text_night_2 {
   display: flex;
   padding: 15px !important;
@@ -881,7 +901,7 @@ width: 30px !important;
   font-size: 15px;
   font-weight: 600;
   color: rgb(110, 105, 105);
-}
+} */
 
 .night_text22 {
   font-size: 15px;
@@ -889,12 +909,12 @@ width: 30px !important;
   color: rgb(110, 105, 105);
 }
 
-.night_text_22 {
+/* .night_text_22 {
   padding: 0px 0px 0px 75%;
   font-size: 15px;
   font-weight: 600;
   color: rgb(110, 105, 105);
-}
+} */
 
 /* .night_text_23 {
   margin: 0px 0px 0px 76% !important;
@@ -903,7 +923,7 @@ width: 30px !important;
   color: rgb(110, 105, 105);
 } */
 
-.btn_view {
+/* .btn_view {
   margin: -20px 15px 15px 15px !important;
   padding: 5px !important;
   background-color: white;
@@ -912,7 +932,7 @@ width: 30px !important;
   border-radius: 5px !important;
   font-size: 16px;
   font-weight: 500;
-}
+} */
 
 .btn_view_2 {
   margin: -20px 5px 15px 5px !important;
@@ -925,7 +945,7 @@ width: 30px !important;
   font-weight: 500;
 }
 
-.btn_view_3 {
+/* .btn_view_3 {
   margin: -20px 5px 0px 5px !important;
   padding: 5px !important;
   background-color: white;
@@ -934,7 +954,7 @@ width: 30px !important;
   border-radius: 5px !important;
   font-size: 16px;
   font-weight: 500;
-}
+} */
 
 .percentage_23 {
   height: 30px !important;
@@ -943,18 +963,18 @@ width: 30px !important;
 }
 
 
-.text_text-12 {
+/* .text_text-12 {
   display: flex !important;
   padding: 0px 15px 0px 15px;
   margin-bottom: -20px;
   position: absolute;
   margin-top: 215px !important;
-}
+} */
 
 .text_text-13 {
   display: flex !important;
   padding: 0px 15px 0px 2px;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   position: absolute;
   margin-top: 205px !important;
 }
@@ -968,9 +988,9 @@ width: 30px !important;
   padding: 0px 7px 0px 0px;
 }
 
-.bird_bird {
+/* .bird_bird {
   padding-right: 0px !important;
-}
+} */
 
 .save_btn_2 {
   background-color: #CD2B40;
@@ -1079,6 +1099,7 @@ width: 30px !important;
   padding: 30px 20px 20px 20px;
   border-radius: 20px;
 }
+
 .bangla_45 {
   margin: -20px 0px 0px 65px;
   font-size: 12px !important;
@@ -1151,7 +1172,7 @@ width: 30px !important;
 
 /* Adventure-Awaits_css */
 
-.your_next_24{
+.your_next_24 {
   margin-top: 150px !important;
 }
 
@@ -1199,7 +1220,7 @@ width: 30px !important;
 .footer_footer {
   background-color: white;
   margin: 170px 0px 0px 0px;
-  height: 470px;
+  height: 400px;
 }
 
 .holidays_64 {
@@ -1212,31 +1233,32 @@ width: 30px !important;
 .million_89 {
   border-top: 2px solid rgb(233, 233, 233);
   display: flex;
+  justify-content: space-between !important;
 }
 
 .facebook {
   height: 35px;
-  margin: 10px 0px 100px 0px;
+  margin: 10px 0px 50px 0px;
 }
 
 .insta {
   height: 40px;
-  margin: 10px 0px 100px 10px;
+  margin: 10px 0px 50px 10px;
 }
 
 .twitter {
   height: 40px;
-  margin: 10px 0px 100px 10px;
+  margin: 10px 0px 50px 10px;
 }
 
 .in_image {
   height: 40px;
-  margin: 10px 0px 100px 10px;
+  margin: 10px 0px 50px 10px;
 }
 
 .youtube_98 {
   height: 45px;
-  margin: 10px 0px 100px 10px;
+  margin: 10px 0px 50px 10px;
 }
 
 .helpful_links {
@@ -1263,7 +1285,7 @@ width: 30px !important;
 }
 
 .explore_more {
-  margin: 20px 250px 20px 0px;
+  margin: 20px 0px 0px 0px;
   color: rgb(131, 131, 131);
   font-size: 16px;
   font-weight: 500;

@@ -85,7 +85,7 @@ function Booking() {
                         {bookingFeatures.map(feature => (
                             <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3' key={feature.id}>
                                 <div className={feature.className}>
-                                    <div className='low_diposit-2'> {/* This class seems consistent, so keeping it */}
+                                    <div className='low_diposit-2'> 
                                         <div>
                                             <img className='booking_img' src={feature.image} alt={feature.title} />
                                             <h5 className='easy_1'>{feature.title}</h5>

@@ -656,12 +656,12 @@
         width: 100% !important;
         height: 400px !important;
         background-position: 30px -100px !important;
-        border-radius: 20px 20px !important;
+        border-radius: 30px 30px !important;
         margin-top: 120px !important;
     }
 
     .lorem_p {
-        border-radius: 20px 300px 300px 20px !important;
+        border-radius: 40px 300px 300px 40px !important;
         background-color: #FC6722;
         height: 400px !important;
         position: relative;
@@ -670,12 +670,13 @@
 
     .lorem_p::before {
         content: "";
-        height: 80px;
-        width: 130px;
+        height: 120px;
+        width: 200px;
         background-color: #fd7b27;
         position: absolute;
         bottom: 0px;
-        border-radius: 0px 90px 0px 20px;
+        border-radius: 0px 290px 0px 65px !important;
+        z-index: 1;
     }
 
 
@@ -703,9 +704,11 @@
         color: #FC6722;
         font-size: 17px;
         font-weight: 700;
+        position: relative;
+        z-index: 2;
     }
 
-    
+
     /* Budget Packages_css */
 
     .budget_text_45 {
@@ -788,6 +791,8 @@
         background: '#fff';
         padding: 10px;
         border-radius: 10px;
+        margin: 10px;
+        width: 300px !important;
     }
 
     .sunlight_border {
@@ -935,7 +940,7 @@
         background: linear-gradient(137deg, rgba(220, 87, 70, 1) 27%, rgba(141, 124, 218, 1) 69%);
         margin-top: 15px !important;
         border-radius: 15px !important;
-        height: 335px !important;
+        height: 350px !important;
         padding: 40px;
 
     }
@@ -1115,9 +1120,9 @@
     /* Adventure-Awaits_css */
 
 
-          .your_next_24 {
-              margin-top: 0px !important;
-          }
+    .your_next_24 {
+        margin-top: 0px !important;
+    }
 
     .expertly_12 {
         background-image: url('../images/image087.png');
@@ -1176,6 +1181,7 @@
     .million_89 {
         border-top: 2px solid rgb(233, 233, 233);
         display: flex;
+        justify-content: space-between !important;
     }
 
     .facebook {
@@ -1230,7 +1236,7 @@
     }
 
     .explore_more {
-        margin: 30px 250px 20px 0px;
+        margin: 30px 0px 0px 0px;
         color: rgb(131, 131, 131);
         font-size: 10px;
         font-weight: 500;
@@ -1609,14 +1615,14 @@
 
     .why_book {
         text-align: center;
-        font-size: 40px !important;
+        font-size: 28px !important;
         font-weight: 600;
         margin: 130px 0px 0px 0px !important;
     }
 
     .service_our {
         text-align: center;
-        font-size: 18px !important;
+        font-size: 14px !important;
         font-weight: 600;
         color: #767479;
         margin: 10px 0px 80px 0px;
@@ -1704,15 +1710,7 @@
         margin: 0px 20px 0px 0px !important;
     }
 
-    .low_diposit-3 {
-        border: 1px solid white;
-        border-radius: 15px;
-        height: 200px !important;
-        width: 140px;
-        padding: 0px !important;
-        background-color: white;
-        margin: 0px 20px 0px 0px !important;
-    }
+
 
     .booking_img {
         height: 60px;
@@ -1739,12 +1737,16 @@
 
     .popular_98 {
         text-align: center;
-        margin: 180px 0px 0px 0px !important;
+        margin: 130px 0px 0px 0px !important;
+        font-size: 28px !important;
     }
 
     .ppopular_exp_77 {
         text-align: center;
-        margin: 0px 0px 50px 0px;
+        margin: 10px 0px 50px 0px;
+        font-size: 14px !important;
+        font-weight: 600;
+        color: #717171;
     }
 
     .card_55 {
@@ -1925,7 +1927,7 @@
     }
 
     .lorem_p {
-        border-radius: 30px 300px 300px 30px !important;
+        border-radius: 40px 300px 300px 40px !important;
         background-color: #FC6722;
         height: 300px !important;
         position: relative;
@@ -1934,18 +1936,19 @@
 
     .lorem_p::before {
         content: "";
-        height: 80px;
-        width: 150px;
+        height: 90px;
+        width: 170px;
         background-color: #fd7b27;
         position: absolute;
         bottom: 0px;
-        border-radius: 0px 90px 0px 20px;
+        border-radius: 0px 250px 0px 60px;
+        z-index: 1;
     }
 
 
     .paragraph_22 {
         margin-top: 0% !important;
-        padding: 40px 30px 5px 20px !important;
+        padding: 70px 30px 5px 20px !important;
         color: white;
         font-size: 35px;
         font-weight: 500;
@@ -1967,21 +1970,23 @@
         color: #FC6722;
         font-size: 14px;
         font-weight: 700;
+        position: relative;
+        z-index: 2;
     }
 
     /* Budget Packages_css */
 
     .budget_text_45 {
         text-align: center;
-        margin: 180px 0px 0px 0px !important;
-        font-size: 37px;
+        margin: 150px 0px 0px 0px !important;
+        font-size: 28px;
         font-weight: 600;
     }
 
     .enjoy_text_89 {
         text-align: center;
         margin: 10px 0px 60px 0px !important;
-        font-size: 17px;
+        font-size: 14px;
         font-weight: 500;
         color: #757575;
     }
@@ -2003,7 +2008,6 @@
 
     .card_sunlight {
         border: 0px !important;
-
     }
 
     .text_14 {
@@ -2068,6 +2072,8 @@
         background: '#fff';
         padding: 10px;
         border-radius: 10px;
+        margin: 10px;
+        width: 220px !important;
     }
 
     .sunlight_border {
@@ -2220,7 +2226,7 @@
         background: linear-gradient(137deg, rgba(220, 87, 70, 1) 27%, rgba(141, 124, 218, 1) 69%);
         margin-top: 15px !important;
         border-radius: 15px !important;
-        height: 275px !important;
+        height: 290px !important;
         width: 470px !important;
         padding: 40px;
 
@@ -2276,9 +2282,9 @@
     }
 
 
-.our_customer_row {
-    margin-top: 50px !important;
-}
+    .our_customer_row {
+        margin-top: 50px !important;
+    }
 
     .star_23 {
         height: 15px !important;
@@ -2408,9 +2414,9 @@
 
     /* Adventure-Awaits_css */
 
-          .your_next_24 {
-              margin-top: 0px !important;
-          }
+    .your_next_24 {
+        margin-top: 0px !important;
+    }
 
     .expertly_12 {
         background-image: url('../images/image087.png');
@@ -2469,6 +2475,7 @@
     .million_89 {
         border-top: 2px solid rgb(233, 233, 233);
         display: flex;
+        justify-content: space-between !important;
     }
 
     .facebook {
@@ -2521,7 +2528,7 @@
     }
 
     .explore_more {
-        margin: 17px 40px 20px 0px;
+        margin: 17px 0px 0px 0px;
         color: rgb(131, 131, 131);
         font-size: 10px;
         font-weight: 500;
@@ -3224,32 +3231,32 @@
         width: 100% !important;
         height: 240px !important;
         background-position: 30px -30px !important;
-        border-radius: 10px 10px !important;
+        border-radius: 15px 15px !important;
         margin-top: 130px !important;
     }
 
     .lorem_p {
-        border-radius: 30px 300px 300px 30px !important;
+        border-radius: 40px 300px 300px 40px !important;
         background-color: #FC6722;
         height: 240px !important;
         position: relative;
-
     }
 
     .lorem_p::before {
         content: "";
-        height: 50px;
-        width: 100px;
+        height: 65px;
+        width: 120px;
         background-color: #fd7b27;
         position: absolute;
         bottom: 0px;
-        border-radius: 0px 90px 0px 20px;
+        border-radius: 0px 250px 0px 70px;
+        z-index: 1;
     }
 
 
     .paragraph_22 {
         margin-top: 0% !important;
-        padding: 40px 30px 5px 20px !important;
+        padding: 50px 30px 5px 20px !important;
         color: white;
         font-size: 24px;
         font-weight: 600;
@@ -3271,6 +3278,8 @@
         color: #FC6722;
         font-size: 8px;
         font-weight: 700;
+        position: relative;
+        z-index: 2;
     }
 
 
@@ -3327,7 +3336,7 @@
 
     .text_56 {
         padding: 10px 20px 15px 4px !important;
-        font-size: 10px !important;
+        font-size: 8px !important;
         font-weight: 600;
     }
 
@@ -3360,13 +3369,13 @@
 
     .star_60 {
         height: 10px !important;
-        margin: 14px 0px 0px 10px !important;
+        margin: 10px 0px 0px 10px !important;
     }
 
     .star_61 {
-        margin: 13px 0px 0px 0px !important;
+        margin: 9px 0px 0px 0px !important;
         color: rgb(223, 81, 30);
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
 
     .div_div {
@@ -3374,6 +3383,8 @@
         background: '#fff';
         padding: 10px;
         border-radius: 10px;
+        margin: 10px;
+        width: 160px !important;
     }
 
     .sunlight_border {
@@ -3398,9 +3409,8 @@
 
     .text_night {
         display: flex;
-        padding: 15px !important;
-        margin: -35px 0px 0px -10px !important;
-        font-size: 10px;
+        padding: 15px 0px 10px 15px !important;
+        font-size: 8px;
         font-weight: 600;
         color: rgb(110, 105, 105);
         justify-content: space-between !important;
@@ -3416,18 +3426,19 @@
     }
 
     .night_text22 {
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 600;
         color: rgb(110, 105, 105);
-        padding: 0px 0px 0px 76px !important;
+        padding: 0px;
     }
 
+    /* 
     .night_text_22 {
         padding: 0px 0px 0px 0px;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 600;
         color: rgb(110, 105, 105);
-    }
+    } */
 
     .night_text_23 {
         padding: 0px 0px 0px 60px;
@@ -3455,13 +3466,12 @@
     }
 
     .btn_view_2 {
-        margin: -20px 5px 15px 5px !important;
         padding: 5px !important;
         background-color: white;
         color: rgb(255, 90, 30);
         border: 2px solid rgb(254, 145, 105);
         border-radius: 5px !important;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
     }
 
@@ -3542,9 +3552,9 @@
     .budget_23 {
         background: linear-gradient(137deg, rgba(220, 87, 70, 1) 27%, rgba(141, 124, 218, 1) 69%);
         margin-top: 15px !important;
-        border-radius: 15px !important;
-        height: 225px !important;
-        width: 350px !important;
+        border-radius: 10px !important;
+        height: 215px !important;
+        width: 340px !important;
         margin-left: 0px !important;
         padding: 40px;
 
@@ -3600,9 +3610,9 @@
     }
 
 
-.our_customer_row {
-    margin-top: 50px !important;
-}
+    .our_customer_row {
+        margin-top: 50px !important;
+    }
 
     .star_23 {
         height: 10px !important;
@@ -3638,7 +3648,7 @@
     .gap_65 {
         background-color: #fff9f9;
         padding: 15px 15px 10px 10px;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     .gap_66 {
@@ -3733,9 +3743,9 @@
 
     /* Adventure-Awaits_css */
 
-        .your_next_24 {
-            margin-top: 50px !important;
-        }
+    .your_next_24 {
+        margin-top: 50px !important;
+    }
 
     .expertly_12 {
         background-image: url('../images/image087.png');
@@ -3744,7 +3754,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        border-radius: 20px 20px !important;
+        border-radius: 15px 15px !important;
         margin: 20px !important;
         padding: 50px !important;
     }
@@ -3794,6 +3804,7 @@
     .million_89 {
         border-top: 2px solid rgb(233, 233, 233);
         display: flex;
+        justify-content: space-between !important;
     }
 
     .facebook {
@@ -3846,7 +3857,7 @@
     }
 
     .explore_more {
-        margin: 17px 10px 10px 0px;
+        margin: 17px 0px 0px 0px;
         color: rgb(131, 131, 131);
         font-size: 8px;
         font-weight: 500;
