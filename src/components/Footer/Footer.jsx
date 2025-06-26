@@ -1,8 +1,8 @@
 import easy from '../../assest/images/easy.webp'
 import facebook from '../../assest/images/facebook.png'
-import insta from '../../assest/images/insta.png'
+import insta from '../../assest/images/instagram.png'
 import twitter from '../../assest/images/twitter.png'
-import images from '../../assest/images/In.png'
+import images from '../../assest/images/linkedin.png'
 import youtube from '../../assest/images/youtube.png'
 
 
@@ -20,15 +20,35 @@ function Footer() {
                                     <h4 className='holidays_64'>holidays</h4>
                                 </div>
                                 <div>
-                                    <p className='adventure_12'>Affordable adventures, unforgettable <br></br>memories to explore with ease to the easy.</p>
+                                    <p className='adventure_12'>Affordable adventures, unforgettable memories-explore with ease.</p>
                                     <p className='follow_78'>FOLLOW US ON HERE:</p>
                                 </div>
-                                <div>
-                                    <img className='facebook' src={facebook} />
-                                    <img className='insta' src={insta} />
-                                    <img className='twitter' src={twitter} />
-                                    <img className='in_image' src={images} />
-                                    <img className='youtube_98' src={youtube} />
+                                <div className='footer_facebook'>
+                                    <div className='facebook_ancker'>
+                                        <a href='https://www.facebook.com/makemytrip/'>
+                                            <img className='facebook' src={facebook} />
+                                        </a>
+                                    </div>
+                                    <div className='facebook_ancker'>
+                                        <a href="https://www.instagram.com/">
+                                            <img className='insta' src={insta} />
+                                        </a>
+                                    </div>
+                                    <div className='facebook_ancker'>
+                                        <a href="https://x.com/?lang=en">
+                                            <img className='twitter' src={twitter} />
+                                        </a>
+                                    </div>
+                                    <div className='facebook_ancker'>
+                                        <a href="https://in.linkedin.com/">
+                                            <img className='in_image' src={images} />
+                                        </a>
+                                    </div>
+                                    <div className='facebook_ancker'>
+                                        <a href="https://www.youtube.com/">
+                                            <img className='youtube_98' src={youtube} />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +59,7 @@ function Footer() {
                                 <p className='help_center_2'>Help Center</p>
                                 <p className='help_center'>Special Assistance</p>
                                 <p className='help_center'>Download The App</p>
-                                <p className='help_center'>Booking Consitions</p>
+                                <p className='help_center'>Booking Conditions</p>
                             </div>
                         </div>
 
@@ -85,7 +105,7 @@ function Footer() {
                                 <select className='option_select-12'>
                                     <option>Holiday Deals</option>
                                 </select>
-                                
+
                                 <select className='option_select-12'>
                                     <option>Popular Counters</option>
                                 </select>

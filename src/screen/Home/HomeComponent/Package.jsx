@@ -12,8 +12,8 @@ import horse from '../../../assest/images/Horse.jpg';
 import bag from '../../../assest/images/bag.png';
 import car from '../../../assest/images/car.png';
 import trip from '../../../assest/images/Holiday.webp'
-import natural from '../../../assest/images/women_work_2.jpg'
-import nature2 from '../../../assest/images/man_work.jpg'
+import natural from '../../../assest/images/nature_img-2.jpg'
+import nature2 from '../../../assest/images/nature_img.jpg'
 
 
 const MyCarousel = () => {
@@ -155,26 +155,25 @@ const MyCarousel = () => {
 
 
             <section>
-                <div id="carouselExampleIndicators" className="container carousel slide ">
+                <div id="carouselExampleIndicators" className="container carousel slide">
                     <div className='row'>
                         <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
-                            <div className="carousel-indicators">
+                            <div className="carousel-indicators active">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    {/* <img src={tigger} className="slider" alt="..." /> */}
                                     <div className='tigger'>
-                                        <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6 lorem_p'>
+                                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6 lorem_p'>
                                             <h1 className='paragraph_22'> Akureyri Iceland </h1>
                                             <p className='paragraph_23'>
                                                 Discover Akureyri in North Iceland , located just below the Arctic Circle you'll surrounded by snow-capped mountains , majestic fjords and breathtaking waterfalls.
                                             </p>
                                             <button className='paragraph_24'>Find Out More</button>
                                         </div>
-                                        <div className='col-sm-6 col-md-6 col-lg-6 col-xl-6'>
+                                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
                                             <p></p>
                                         </div>
                                     </div>
@@ -190,7 +189,6 @@ const MyCarousel = () => {
                     </div>
                 </div>
             </section>
-
         </>
     );
 };

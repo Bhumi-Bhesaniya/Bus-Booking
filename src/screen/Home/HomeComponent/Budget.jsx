@@ -75,9 +75,9 @@ const Budget = () => {
                             <p className='enjoy_text_89'>Enjoy incredible experiences with our budget-friendly packages <br></br>tailored for every traveler.</p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row row_budget">
                         {Budgets.map((review) => (
-                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 div_div'>
+                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 div_div' key={review.id}>
                                 <div className='sunlight_border'>
                                     <div className="card card_sunlight">
                                         <img className='sunlight_12' src={review?.mainImage || sunlight} />
@@ -104,11 +104,11 @@ const Budget = () => {
 
 
                         <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
-                            <div className="row">
+                            <div className="row budget_gradient">
                                 <div className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                                     <div className='budget_23'>
                                         <div>
-                                            <button className='explore_btn'>EXPLORE MORE PACKAGE</button>
+                                            <button className='explore_btn'>EXPLORE MORE PACKAGES</button>
                                             <h1 className='choose_text'>Choose Your Budget Friendly Packages From $200 To $1200</h1>
                                         </div>
                                         <div>

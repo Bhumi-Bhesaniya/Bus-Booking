@@ -30,7 +30,7 @@ function Booking() {
             id: 3,
             image: pay,
             title: 'Easy Pay',
-            description: 'Paying In The Instalments',
+            description: 'Paying In  Instalments',
             className: 'background_3'
         },
         {
@@ -73,11 +73,11 @@ function Booking() {
     return (
         <>
             <section>
-                <div className='container'>
+                <div className='container small_box'>
                     <div className='row'>
                         <div className=' col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                             <h1 className='why_book'>Why Book With Us?</h1>
-                            <p className='service_our'>Discover why our personalised service, expert planning, and unbeatable service<br></br> value make every trip extraordinary.</p>
+                            <p className='service_our'>Discover why our personalised service, expert planning, and unbeatable <br></br> value make every trip extraordinary.</p>
                         </div>
                     </div>
 
@@ -86,11 +86,10 @@ function Booking() {
                             <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3' key={feature.id}>
                                 <div className={feature.className}>
                                     <div className='low_diposit-2'> 
-                                        <div>
                                             <img className='booking_img' src={feature.image} alt={feature.title} />
                                             <h5 className='easy_1'>{feature.title}</h5>
                                             <p className='easy_2'>{feature.description}</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
